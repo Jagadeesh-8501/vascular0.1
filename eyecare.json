@@ -1,0 +1,268 @@
+{
+    "services": [
+      {
+        "id": "phacoemulsification-surgery",
+        "title": "Phacoemulsification Surgery for Cataract",
+        "image1": "assets/images/service/eye_care/phacoemulsification.jpg",
+        "icon1": "assets/images/service/eye_care/phacoemulsification-icon.png",
+        "title1": "Phacoemulsification Surgery for Cataract",
+        "description": "Phacoemulsification is a modern cataract surgery technique in which an ultrasonic probe is used to break up the cataract, making it easier to remove. This minimally invasive procedure offers fast recovery times and restores clear vision for cataract patients.",
+        "procedures_we_offer": [
+          {
+            "name": "Phacoemulsification",
+            "description": "A modern method for cataract removal, using ultrasound to emulsify and remove the cataract."
+          }
+        ],
+        "why_choose_our_team": [
+          "Experienced Surgeons Specializing in Cataract Surgery",
+          "Minimally Invasive with Quick Recovery",
+          "State-of-the-Art Equipment for Precise Results",
+          "High Success Rate in Restoring Vision"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "How long does it take to recover from phacoemulsification surgery?",
+            "answer": "Most patients experience noticeable vision improvement within a few days, with full recovery typically taking 1-2 weeks."
+          },
+          {
+            "question": "Is the phacoemulsification procedure painful?",
+            "answer": "No, local anesthesia is used, and the procedure is minimally painful."
+          }
+        ]
+      },
+      {
+        "id": "small-incision-cataract-surgery",
+        "title": "Small Incision Cataract Surgery",
+        "image1": "assets/images/service/eye_care/small-incision-cataract.jpg",
+        "icon1": "assets/images/service/eye_care/small-incision-icon.png",
+        "title1": "Small Incision Cataract Surgery",
+        "description": "Small incision cataract surgery is a less invasive approach to cataract surgery. It involves making a smaller incision, reducing the risk of complications and speeding up the recovery process.",
+        "procedures_we_offer": [
+          {
+            "name": "Small Incision Cataract Surgery",
+            "description": "A procedure that uses a small incision to remove the cataract, resulting in less post-operative discomfort and quicker healing."
+          }
+        ],
+        "why_choose_our_team": [
+          "Minimally Invasive for Faster Recovery",
+          "Lower Risk of Infection and Complications",
+          "Personalized Post-Surgery Care"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "How quickly can I resume normal activities after small incision surgery?",
+            "answer": "Most patients can resume normal activities within 24-48 hours, depending on their overall health."
+          },
+          {
+            "question": "Is the incision visible after surgery?",
+            "answer": "No, the small incision is usually hidden and heals with minimal scarring."
+          }
+        ]
+      },
+      {
+        "id": "pterygium-excision-conjunctival-autograft",
+        "title": "Pterygium Excision with Conjunctival Autograft",
+        "image1": "assets/images/service/eye_care/pterygium-excision-autograft.jpg",
+        "icon1": "assets/images/service/eye_care/pterygium-icon.png",
+        "title1": "Pterygium Excision with Conjunctival Autograft",
+        "description": "This procedure involves removing the pterygium (abnormal tissue growth) and using a piece of the patient's own conjunctiva to cover the area, preventing recurrence and promoting healing.",
+        "procedures_we_offer": [
+          {
+            "name": "Pterygium Excision with Conjunctival Autograft",
+            "description": "Removing the pterygium and covering the site with the patient's own conjunctival tissue to reduce the risk of recurrence."
+          }
+        ],
+        "why_choose_our_team": [
+          "Expert Surgeons with Specialization in Pterygium Removal",
+          "Reduced Risk of Recurrence",
+          "Advanced Healing Techniques Using Autografts"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "What is the recovery time after pterygium excision?",
+            "answer": "Recovery typically takes about 2-4 weeks, and patients are encouraged to avoid strenuous activities during this period."
+          },
+          {
+            "question": "Will the pterygium return after surgery?",
+            "answer": "Using an autograft significantly reduces the risk of recurrence."
+          }
+        ]
+      },
+      {
+        "id": "glaucoma-surgery",
+        "title": "Glaucoma Surgery",
+        "image1": "assets/images/service/eye_care/glaucoma-surgery.jpg",
+        "icon1": "assets/images/service/eye_care/glaucoma-icon.png",
+        "title1": "Glaucoma Surgery",
+        "description": "Glaucoma surgery aims to reduce intraocular pressure to prevent optic nerve damage, preserving vision. Common procedures include trabeculectomy and tube shunt surgery.",
+        "procedures_we_offer": [
+          {
+            "name": "Glaucoma Surgery",
+            "description": "Surgical methods to lower intraocular pressure and prevent further vision loss from glaucoma."
+          }
+        ],
+        "why_choose_our_team": [
+          "Specialized Surgeons in Glaucoma Management",
+          "Tailored Treatment Plans for Each Patient",
+          "Advanced Technology for Effective Pressure Control"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "What is the goal of glaucoma surgery?",
+            "answer": "The goal is to lower intraocular pressure and prevent further damage to the optic nerve."
+          },
+          {
+            "question": "Is glaucoma surgery painful?",
+            "answer": "Most glaucoma surgeries are performed under local anesthesia, so patients experience minimal pain during the procedure."
+          }
+        ]
+      },
+      {
+        "id": "chalazion-operation",
+        "title": "Chalazion Operation",
+        "image1": "assets/images/service/eye_care/chalazion-operation.jpg",
+        "icon1": "assets/images/service/eye_care/chalazion-icon.png",
+        "title1": "Chalazion Operation",
+        "description": "A chalazion is a blocked oil gland in the eyelid that can cause swelling and discomfort. This surgical procedure removes the chalazion through a small incision, providing relief and preventing recurrence.",
+        "procedures_we_offer": [
+          {
+            "name": "Chalazion Operation",
+            "description": "A procedure that removes the chalazion with minimal discomfort and little to no scarring."
+          }
+        ],
+        "why_choose_our_team": [
+          "Expert Surgeons Specializing in Lid Procedures",
+          "Quick Procedure with Minimal Recovery Time",
+          "Minimal Risk of Scarring"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "Is chalazion surgery painful?",
+            "answer": "The procedure is typically performed under local anesthesia, ensuring minimal discomfort."
+          },
+          {
+            "question": "How soon can I return to normal activities after chalazion surgery?",
+            "answer": "Most patients can return to normal activities within 1-2 days after the procedure."
+          }
+        ]
+      },
+          {
+            "id": "conjunctival-corneal-fb",
+            "title": "Conjunctival and Corneal Foreign Body Removal",
+            "image1": "assets/images/service/eye_care/conjunctival-corneal-fb.jpg",
+            "icon1": "assets/images/service/eye_care/conjunctival-corneal-icon.png",
+            "title1": "Conjunctival and Corneal Foreign Body Removal",
+            "description": "Foreign bodies in the eye can cause irritation, redness, and discomfort. Our team uses advanced techniques to safely remove foreign particles from the conjunctiva and cornea to alleviate pain and prevent further damage.",
+            "procedures_we_offer": [
+              {
+                "name": "Foreign Body Removal",
+                "description": "A procedure to safely remove foreign particles from the eye's surface using specialized tools, ensuring minimal discomfort and no lasting effects."
+              }
+            ],
+            "why_choose_our_team": [
+              "Expert Ophthalmologists with Specialization in Foreign Body Removal",
+              "Fast and Painless Procedure",
+              "Advanced Equipment for Safe and Efficient Removal"
+            ],
+            "frequently_asked_questions": [
+              {
+                "question": "How long does it take to remove a foreign body from the eye?",
+                "answer": "The procedure typically takes only a few minutes, and patients experience immediate relief afterward."
+              },
+              {
+                "question": "Is the procedure painful?",
+                "answer": "The procedure is generally not painful, as local anesthetics are used to numb the area before removal."
+              }
+            ]
+          },
+          {
+            "id": "ocular-trauma-management",
+            "title": "Ocular Trauma Management",
+            "image1": "assets/images/service/eye_care/ocular-trauma.jpg",
+            "icon1": "assets/images/service/eye_care/ocular-trauma-icon.png",
+            "title1": "Ocular Trauma Management",
+            "description": "Ocular trauma refers to any injury to the eye or its surrounding structures. We provide comprehensive care to manage and treat eye injuries, from minor abrasions to more severe trauma, ensuring the best possible outcome.",
+            "procedures_we_offer": [
+              {
+                "name": "Ocular Trauma Treatment",
+                "description": "A comprehensive approach to diagnosing and treating eye injuries, including medications, surgical interventions, and follow-up care to ensure proper healing."
+              }
+            ],
+            "why_choose_our_team": [
+              "Experienced Surgeons Specializing in Ocular Trauma",
+              "Timely and Effective Management for Optimal Recovery",
+              "Access to Advanced Diagnostic and Surgical Equipment"
+            ],
+            "frequently_asked_questions": [
+              {
+                "question": "How do I know if I have a serious eye injury?",
+                "answer": "Signs of serious eye injury include severe pain, vision loss, bleeding, or a foreign object lodged in the eye. Immediate medical attention is required."
+              },
+              {
+                "question": "Can ocular trauma cause permanent vision loss?",
+                "answer": "In some cases, untreated ocular trauma can lead to permanent vision loss, which is why prompt treatment is crucial."
+              }
+            ]
+          },
+          {
+            "id": "lid-repairs",
+            "title": "Lid Repairs",
+            "image1": "assets/images/service/eye_care/lid-repairs.jpg",
+            "icon1": "assets/images/service/eye_care/lid-repair-icon.png",
+            "title1": "Lid Repairs",
+            "description": "Lid repairs are essential when there is damage to the eyelids due to trauma, infection, or congenital issues. Our expert team provides specialized care to restore both the function and appearance of the eyelid.",
+            "procedures_we_offer": [
+              {
+                "name": "Eyelid Repair Surgery",
+                "description": "A surgical procedure to repair eyelid lacerations, malposition, or congenital defects, ensuring optimal function and cosmetic outcomes."
+              }
+            ],
+            "why_choose_our_team": [
+              "Specialized Surgeons with Expertise in Lid Repair",
+              "Minimal Scarring with Advanced Techniques",
+              "Personalized Approach to Eyelid Function and Appearance"
+            ],
+            "frequently_asked_questions": [
+              {
+                "question": "What are the risks of eyelid surgery?",
+                "answer": "Though rare, risks include infection, scarring, or eyelid dysfunction. Our surgeons take every precaution to minimize these risks."
+              },
+              {
+                "question": "How long is the recovery period after eyelid surgery?",
+                "answer": "Most patients experience a quick recovery, with swelling and bruising typically resolving within a week."
+              }
+            ]
+          },
+          {
+            "id": "contact-lens-fitment",
+            "title": "Contact Lens Fitment",
+            "image1": "assets/images/service/eye_care/contact-lens-fitment.jpg",
+            "icon1": "assets/images/service/eye_care/contact-lens-icon.png",
+            "title1": "Contact Lens Fitment",
+            "description": "We offer personalized contact lens fitting to ensure the perfect fit for your eyes. Our specialists assess the shape, size, and health of your eyes to recommend the best type of lenses for comfort and vision correction.",
+            "procedures_we_offer": [
+              {
+                "name": "Contact Lens Fitting",
+                "description": "A thorough examination to ensure your contact lenses fit correctly, providing comfort and the best possible vision correction."
+              }
+            ],
+            "why_choose_our_team": [
+              "Experienced Optometrists for Precise Fitting",
+              "Comprehensive Eye Assessments for Optimal Comfort",
+              "Wide Range of Contact Lenses, Including Specialty Lenses"
+            ],
+            "frequently_asked_questions": [
+              {
+                "question": "How do I know if contact lenses are right for me?",
+                "answer": "If you have clear vision and no significant eye conditions, contact lenses may be a great option. A comprehensive eye exam will help determine the best solution."
+              },
+              {
+                "question": "Is it difficult to wear contact lenses?",
+                "answer": "With proper guidance and practice, most people find wearing contact lenses easy and comfortable."
+              }
+            ]
+          }
+        ]
+      }
+      
+  

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog Details</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Sample styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    header, main {
+      max-width: 800px;
+      margin: auto;
+    }
+    header h1 {
+      margin-bottom: 20px;
+    }
+    .section-title {
+      color: #0073e6;
+      margin-top: 30px;
+    }
+    main p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    a.back-link {
+      display: inline-block;
+      margin-top: 30px;
+      color: #0073e6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="blog-title">Blog Title</h1>
+  </header>
+  <main>
+    <div id="blog-content"></div>
+    <a class="back-link" href="blogs.html">Back to Blogs</a>
+  </main>
+
+  <script>
+    async function fetchBlogDetails() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const blogId = urlParams.get('id');
+
+      try {
+        const response = await fetch('blogs.json');
+        const data = await response.json();
+        const blog = data.blogs.find(b => b.id === blogId);
+
+        if (!blog) {
+          document.body.innerHTML = "<h1>Blog Not Found</h1>";
+          return;
+        }
+
+        // Set the blog title
+        document.getElementById('blog-title').textContent = blog.title;
+
+        // Build the blog content using the sections in blog.content
+        let contentHtml = "";
+        // Loop through each section in the content object
+        for (const section in blog.content) {
+          if (blog.content.hasOwnProperty(section)) {
+            // Capitalize the section title
+            const sectionTitle = section.charAt(0).toUpperCase() + section.slice(1);
+            contentHtml += `<h2 class="section-title">${sectionTitle}</h2>`;
+            contentHtml += `<p>${blog.content[section]}</p>`;
+          }
+        }
+        document.getElementById('blog-content').innerHTML = contentHtml;
+      } catch (error) {
+        console.error("Error fetching blog details:", error);
+      }
+    }
+
+    fetchBlogDetails();
+  </script>
+</body>
+</html>

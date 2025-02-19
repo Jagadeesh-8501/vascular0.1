@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Blogs</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Sample styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    header, main {
+      max-width: 800px;
+      margin: auto;
+    }
+    .blog-summary {
+      border-bottom: 1px solid #ddd;
+      padding: 20px 0;
+    }
+    .blog-summary h2 {
+      margin: 0 0 10px;
+    }
+    .blog-summary p {
+      margin: 0 0 10px;
+    }
+    .blog-summary a {
+      color: #0073e6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Our Blogs</h1>
+  </header>
+  <main>
+    <div id="blogs-container"></div>
+  </main>
+
+  <script>
+    async function fetchBlogs() {
+      try {
+        const response = await fetch('blogs.json');
+        const data = await response.json();
+        const container = document.getElementById('blogs-container');
+
+        data.blogs.forEach(blog => {
+          // Create a container for each blog summary
+          const blogDiv = document.createElement('div');
+          blogDiv.classList.add('blog-summary');
+
+          // Use the introduction from the blog content as a summary (limited to 200 characters)
+          const summaryText =
+            blog.content.introduction.length > 200
+              ? blog.content.introduction.substring(0, 200) + "..."
+              : blog.content.introduction;
+
+          blogDiv.innerHTML = `
+            <h2>${blog.title}</h2>
+            <p>${summaryText}</p>
+            <a href="blog-details.html?id=${blog.id}">Read More</a>
+          `;
+          container.appendChild(blogDiv);
+        });
+      } catch (error) {
+        console.error("Error fetching blogs:", error);
+      }
+    }
+
+    fetchBlogs();
+  </script>
+</body>
+</html>

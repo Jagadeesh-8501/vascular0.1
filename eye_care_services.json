@@ -1,0 +1,643 @@
+{
+    "services": [
+      {
+        "id": "phacoemulsification-surgery",
+        "title": "Phacoemulsification Surgery for Cataract",
+        "image1": "assets/images/service/2/1.jpg",
+        "icon1": "assets/images/service/2/1.png",
+        "title1": "Phacoemulsification Surgery for Cataract",
+        "description": "Phacoemulsification is a state-of-the-art cataract removal procedure that uses ultrasonic energy to break up the cloudy lens into small fragments, which are then suctioned out. This minimally invasive technique significantly reduces surgical trauma, enables faster recovery, and restores clear, vibrant vision. Our expert surgeons utilize advanced technology and customized treatment plans to ensure the best possible outcome, allowing patients to return quickly to their daily activities.",
+        "procedures_we_offer": [
+          {
+            "name": "Phacoemulsification",
+            "description": "A modern, ultrasound-based method to emulsify and remove the cataract, minimizing incision size and optimizing healing."
+          }
+        ],
+        "why_choose_our_team": [
+          "Experienced Surgeons Specializing in Cataract Surgery",
+          "Minimally Invasive Techniques for Faster Recovery",
+          "State-of-the-Art Equipment for Precise Results",
+          "High Success Rate in Restoring Clear Vision"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "How long does it take to recover from phacoemulsification surgery?",
+            "answer": "Most patients experience noticeable vision improvement within a few days, with full recovery typically taking between 1-2 weeks."
+          },
+          {
+            "question": "Is the phacoemulsification procedure painful?",
+            "answer": "No, the procedure is performed under local anesthesia, ensuring minimal discomfort during surgery."
+          }
+        ],
+        "do_and_dont": {
+          "pre_treatment_do": "Attend all pre-operative consultations, complete any required tests, and follow fasting instructions as provided.",
+          "pre_treatment_dont": "Avoid alcohol, blood thinners, and any medications not approved by your doctor prior to surgery.",
+          "post_treatment_do": "Use all prescribed eye drops, wear protective eyewear, and rest your eyes as instructed to facilitate healing.",
+          "post_treatment_dont": "Do not rub your eyes, apply pressure, or engage in strenuous activities immediately following the procedure."
+        },
+        "symptoms_and_causes": {
+          "symptoms": [
+            "Blurred or cloudy vision",
+            "Glare and halos around lights",
+            "Difficulty reading or performing close-up tasks",
+            "Reduced contrast sensitivity"
+          ],
+          "causes": [
+            "Age-related lens opacification",
+            "Trauma to the eye",
+            "Metabolic conditions such as diabetes"
+          ]
+        },
+        "complications_and_preventions": {
+          "complications": [
+            "Infection at the surgical site",
+            "Inflammation and swelling",
+            "Rarely, retinal detachment"
+          ],
+          "preventions": [
+            "Strict adherence to post-operative care and medication schedules",
+            "Timely follow-up visits with your ophthalmologist",
+            "Maintaining overall eye health with regular check-ups"
+          ]
+        },
+        "diagnosis_and_tests": {
+          "diagnosis": [
+            "Comprehensive eye examination",
+            "Slit-lamp examination for detailed assessment",
+            "Dilated fundus exam to inspect the retina"
+          ],
+          "tests": [
+            "Visual acuity testing",
+            "Intraocular pressure measurement",
+            "Ultrasound imaging of the eye"
+          ]
+        },
+        "cta": "Schedule your consultation today to restore clear, vibrant vision and regain your quality of life."
+      },
+      {
+        "id": "small-incision-cataract-surgery",
+        "title": "Small Incision Cataract Surgery",
+        "image1": "assets/images/service/2/2.jpg",
+        "icon1": "assets/images/service/2/2.png",
+        "title1": "Small Incision Cataract Surgery",
+        "description": "Small incision cataract surgery is a refined approach to cataract removal that involves making a tiny incision, which significantly reduces surgical trauma and shortens recovery time. This technique minimizes the risk of complications and provides patients with improved visual outcomes and enhanced comfort post-surgery. Our dedicated team offers personalized care and advanced technology to ensure optimal results.",
+        "procedures_we_offer": [
+          {
+            "name": "Small Incision Cataract Surgery",
+            "description": "A precise procedure utilizing a minimal incision to remove the cataract, ensuring reduced post-operative discomfort and a rapid return to normal activities."
+          }
+        ],
+        "why_choose_our_team": [
+          "Expertise in Minimally Invasive Cataract Techniques",
+          "Rapid Recovery with Fewer Complications",
+          "Customized Treatment Plans for Optimal Results"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "How quickly can I resume normal activities after small incision surgery?",
+            "answer": "Most patients are able to resume normal activities within 24-48 hours after the procedure, depending on individual recovery rates."
+          },
+          {
+            "question": "Is the small incision visible after surgery?",
+            "answer": "The incision is very small, usually hidden within the natural curves of the eye, and typically heals with minimal scarring."
+          }
+        ],
+        "do_and_dont": {
+          "pre_treatment_do": "Follow all pre-operative instructions carefully and attend your scheduled assessment.",
+          "pre_treatment_dont": "Avoid eating or drinking for the period specified before surgery.",
+          "post_treatment_do": "Keep the eye area clean, use the prescribed medications, and follow your surgeon’s advice for recovery.",
+          "post_treatment_dont": "Refrain from strenuous activities and protect the eye from dust, water, and potential irritants."
+        },
+        "symptoms_and_causes": {
+          "symptoms": [
+            "Cloudy or blurred vision",
+            "Increased sensitivity to light",
+            "Difficulty seeing in dim conditions"
+          ],
+          "causes": [
+            "Natural aging process leading to lens opacity",
+            "Diabetic changes in the eye",
+            "Long-term exposure to ultraviolet light"
+          ]
+        },
+        "complications_and_preventions": {
+          "complications": [
+            "Post-operative infection",
+            "Inflammation and discomfort",
+            "Posterior capsule opacification (secondary cataract)"
+          ],
+          "preventions": [
+            "Adhering strictly to post-operative care instructions",
+            "Regular antibiotic use as prescribed",
+            "Routine follow-up examinations to monitor healing"
+          ]
+        },
+        "diagnosis_and_tests": {
+          "diagnosis": [
+            "Detailed ocular examination with a focus on lens clarity",
+            "Cataract grading by an experienced ophthalmologist"
+          ],
+          "tests": [
+            "Standard visual acuity test",
+            "Slit-lamp biomicroscopy",
+            "Optical coherence tomography (OCT) for detailed imaging"
+          ]
+        },
+        "cta": "Contact us today to see if small incision cataract surgery is the right choice for you and enjoy a faster, more comfortable recovery."
+      },
+      {
+        "id": "pterygium-excision-conjunctival-autograft",
+        "title": "Pterygium Excision with Conjunctival Autograft",
+        "image1": "assets/images/service/2/3.jpg",
+
+        "icon1": "assets/images/service/2/3.png",
+        "title1": "Pterygium Excision with Conjunctival Autograft",
+        "description": "Pterygium is an abnormal growth of conjunctival tissue that can encroach onto the cornea and impair vision. Our procedure removes the pterygium and uses a graft of the patient’s own conjunctiva to cover the area, significantly reducing the chance of recurrence and promoting natural healing. This method ensures both functional and cosmetic improvements, restoring the health of your eye’s surface.",
+        "procedures_we_offer": [
+          {
+            "name": "Pterygium Excision with Conjunctival Autograft",
+            "description": "Surgically remove the pterygium and cover the defect with autologous conjunctival tissue to ensure a lower recurrence rate and faster recovery."
+          }
+        ],
+        "why_choose_our_team": [
+          "Highly Skilled Surgeons Specialized in Ocular Surface Reconstruction",
+          "Innovative Autograft Techniques to Minimize Recurrence",
+          "Commitment to Personalized and Compassionate Care"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "What is the recovery time after pterygium excision?",
+            "answer": "Recovery typically takes 2-4 weeks, during which patients must follow strict post-operative care instructions to ensure optimal healing."
+          },
+          {
+            "question": "Will the pterygium return after surgery?",
+            "answer": "Using an autograft significantly minimizes the risk of recurrence, though regular follow-ups are essential."
+          }
+        ],
+        "do_and_dont": {
+          "pre_treatment_do": "Attend a detailed pre-operative evaluation and follow all instructions regarding eye care before surgery.",
+          "pre_treatment_dont": "Avoid wearing eye makeup or contact lenses for at least 24 hours before the procedure.",
+          "post_treatment_do": "Apply all prescribed eye drops, wear sunglasses, and attend all scheduled follow-up visits.",
+          "post_treatment_dont": "Do not rub or touch the surgical site, and avoid environments with dust or strong wind."
+        },
+        "symptoms_and_causes": {
+          "symptoms": [
+            "Chronic redness",
+            "Irritation and discomfort",
+            "A noticeable, wing-shaped tissue growth on the eye"
+          ],
+          "causes": [
+            "Excessive exposure to ultraviolet light",
+            "Environmental factors such as wind and dust",
+            "Genetic predisposition"
+          ]
+        },
+        "complications_and_preventions": {
+          "complications": [
+            "Recurrence of the pterygium",
+            "Infection at the surgical site",
+            "Excessive scarring"
+          ],
+          "preventions": [
+            "Consistent use of UV-protective eyewear",
+            "Adherence to post-operative medication schedules",
+            "Regular follow-up visits for early detection of complications"
+          ]
+        },
+        "diagnosis_and_tests": {
+          "diagnosis": [
+            "Detailed clinical examination with slit-lamp evaluation",
+            "Assessment of the extent of conjunctival involvement"
+          ],
+          "tests": [
+            "Ocular surface imaging",
+            "Photographic documentation for monitoring progress"
+          ]
+        },
+        "cta": "Schedule your consultation now to prevent discomfort and protect your vision with our advanced pterygium treatment."
+      },
+      {
+        "id": "glaucoma-surgery",
+        "title": "Glaucoma Surgery",
+        "image1": "assets/images/service/2/4.jpg",
+        "icon1": "assets/images/service/2/4.png",
+        "title1": "Glaucoma Surgery",
+        "description": "Glaucoma surgery is designed to reduce intraocular pressure (IOP) to prevent damage to the optic nerve and preserve vision. Our procedures, including trabeculectomy and tube shunt surgeries, are tailored to each patient's unique condition. We use the latest surgical techniques and technologies to ensure a safe procedure with minimal complications, enabling long-term control of IOP and protection of your sight.",
+        "procedures_we_offer": [
+          {
+            "name": "Glaucoma Surgery",
+            "description": "A range of surgical techniques aimed at lowering intraocular pressure and preventing further optic nerve damage."
+          }
+        ],
+        "why_choose_our_team": [
+          "Dedicated Glaucoma Specialists",
+          "Personalized, Customized Treatment Plans",
+          "Cutting-Edge Surgical Equipment for Optimal Outcomes"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "What is the goal of glaucoma surgery?",
+            "answer": "The main goal is to reduce intraocular pressure to prevent further damage to the optic nerve and preserve vision."
+          },
+          {
+            "question": "Is glaucoma surgery painful?",
+            "answer": "Glaucoma surgeries are generally performed under local anesthesia, which minimizes pain during the procedure."
+          }
+        ],
+        "do_and_dont": {
+          "pre_treatment_do": "Complete a thorough eye examination and follow all pre-operative instructions provided by your specialist.",
+          "pre_treatment_dont": "Avoid medications that may increase bleeding risk as advised by your doctor.",
+          "post_treatment_do": "Adhere strictly to your medication schedule and attend all follow-up appointments.",
+          "post_treatment_dont": "Refrain from heavy lifting and strenuous activities until cleared by your surgeon."
+        },
+        "symptoms_and_causes": {
+          "symptoms": [
+            "Gradual loss of peripheral vision",
+            "Eye pain or discomfort",
+            "Halos around lights or blurred vision"
+          ],
+          "causes": [
+            "Increased intraocular pressure due to impaired aqueous humor drainage",
+            "Genetic predisposition",
+            "Age-related changes"
+          ]
+        },
+        "complications_and_preventions": {
+          "complications": [
+            "Post-operative infection",
+            "Bleeding during or after surgery",
+            "Accelerated cataract formation"
+          ],
+          "preventions": [
+            "Strict adherence to post-operative care",
+            "Regular monitoring of intraocular pressure",
+            "Timely use of prescribed medications"
+          ]
+        },
+        "diagnosis_and_tests": {
+          "diagnosis": [
+            "Comprehensive eye exam including tonometry",
+            "Detailed evaluation of the optic nerve"
+          ],
+          "tests": [
+            "Visual field testing",
+            "Optical coherence tomography (OCT)",
+            "Gonioscopy to assess the drainage angle"
+          ]
+        },
+        "cta": "Contact us today to discuss your glaucoma treatment options and safeguard your vision for the future."
+      },
+      {
+        "id": "chalazion-operation",
+        "title": "Chalazion Operation",
+        "image1": "assets/images/service/2/5.jpg",
+        "icon1": "assets/images/service/2/5.png",
+        "title1": "Chalazion Operation",
+        "description": "A chalazion is a persistent lump caused by a blocked oil gland in the eyelid. Our chalazion operation involves a small, precise incision to remove the blocked gland tissue, effectively relieving discomfort and reducing the chance of recurrence. This minor procedure is performed under local anesthesia and is designed to minimize scarring while restoring the normal function of your eyelid.",
+        "procedures_we_offer": [
+          {
+            "name": "Chalazion Operation",
+            "description": "A minimally invasive surgical procedure to remove a chalazion, ensuring quick recovery and minimal scarring."
+          }
+        ],
+        "why_choose_our_team": [
+          "Expertise in Lid Surgery and Ocular Surface Procedures",
+          "Fast and Efficient Operations with Minimal Discomfort",
+          "Commitment to Aesthetic and Functional Restoration"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "Is chalazion surgery painful?",
+            "answer": "The procedure is performed under local anesthesia, ensuring that patients experience minimal discomfort during and after the surgery."
+          },
+          {
+            "question": "How soon can I resume normal activities after the procedure?",
+            "answer": "Most patients are able to resume their normal daily activities within 1-2 days following the operation."
+          }
+        ],
+        "do_and_dont": {
+          "pre_treatment_do": "Follow your doctor’s instructions for pre-operative care and ensure your eyelids are clean before surgery.",
+          "pre_treatment_dont": "Avoid using eye makeup or creams on your eyelids for at least 24 hours before the procedure.",
+          "post_treatment_do": "Use all prescribed medications, keep the area clean, and attend all follow-up appointments.",
+          "post_treatment_dont": "Avoid rubbing or touching the operated area to prevent infection."
+        },
+        "symptoms_and_causes": {
+          "symptoms": [
+            "Swelling of the eyelid",
+            "Redness and tenderness",
+            "Visible lump or bump on the eyelid"
+          ],
+          "causes": [
+            "Blockage of the meibomian glands",
+            "Chronic blepharitis",
+            "Local inflammation"
+          ]
+        },
+        "complications_and_preventions": {
+          "complications": [
+            "Recurrence of the chalazion",
+            "Post-operative infection",
+            "Scarring or irregular eyelid contour"
+          ],
+          "preventions": [
+            "Strict adherence to post-operative care and hygiene",
+            "Regular follow-up visits",
+            "Prompt treatment of any eyelid infections"
+          ]
+        },
+        "diagnosis_and_tests": {
+          "diagnosis": [
+            "Clinical examination of the eyelid",
+            "Slit-lamp evaluation for detailed assessment"
+          ],
+          "tests": [
+            "Eyelid palpation",
+            "Ocular surface evaluation"
+          ]
+        },
+        "cta": "Book your appointment now to relieve discomfort and restore healthy eyelid function."
+      },
+      {
+        "id": "conjunctival-corneal-fb",
+        "title": "Conjunctival and Corneal Foreign Body Removal",
+        "image1": "assets/images/service/2/6.jpg",
+        "icon1": "assets/images/service/2/6.png",
+        "title1": "Conjunctival and Corneal Foreign Body Removal",
+        "description": "Foreign objects in the eye can lead to irritation, pain, and potential long-term damage if not promptly removed. Our procedure employs advanced techniques and specialized tools to safely extract debris from the conjunctiva and cornea, reducing discomfort and preventing complications. Our swift and precise intervention ensures that your vision is protected and your eye health is maintained.",
+        "procedures_we_offer": [
+          {
+            "name": "Foreign Body Removal",
+            "description": "A careful, minimally invasive procedure to remove foreign particles from the eye using specialized instruments."
+          }
+        ],
+        "why_choose_our_team": [
+          "Highly Skilled Ophthalmologists",
+          "Rapid, Painless Removal Procedures",
+          "Cutting-Edge Equipment for Accurate Intervention"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "How long does the foreign body removal procedure take?",
+            "answer": "The procedure typically takes only a few minutes, providing immediate relief."
+          },
+          {
+            "question": "Is the procedure painful?",
+            "answer": "Local anesthesia is administered to ensure that the process is as painless as possible."
+          }
+        ],
+        "do_and_dont": {
+          "pre_treatment_do": "Seek an immediate eye exam if you suspect a foreign body in your eye.",
+          "pre_treatment_dont": "Do not attempt to remove the foreign object yourself.",
+          "post_treatment_do": "Follow up with your doctor and use any prescribed medications to prevent infection.",
+          "post_treatment_dont": "Avoid exposure to dust, smoke, or irritants after the procedure."
+        },
+        "symptoms_and_causes": {
+          "symptoms": [
+            "Redness and irritation",
+            "Excessive tearing",
+            "Sensation of a foreign body in the eye"
+          ],
+          "causes": [
+            "Exposure to debris or dust",
+            "Accidental contact with foreign objects",
+            "Environmental factors"
+          ]
+        },
+        "complications_and_preventions": {
+          "complications": [
+            "Infection",
+            "Corneal abrasion",
+            "Permanent scarring if left untreated"
+          ],
+          "preventions": [
+            "Prompt and appropriate treatment",
+            "Strict adherence to aftercare instructions",
+            "Regular eye examinations after the procedure"
+          ]
+        },
+        "diagnosis_and_tests": {
+          "diagnosis": [
+            "Detailed ocular examination using a slit-lamp"
+          ],
+          "tests": [
+            "Fluorescein staining",
+            "Ocular surface imaging"
+          ]
+        },
+        "cta": "Get immediate treatment to safeguard your vision and prevent further damage."
+      },
+      {
+        "id": "ocular-trauma-management",
+        "title": "Ocular Trauma Management",
+        "image1": "assets/images/service/2/7.jpg",
+        "icon1": "assets/images/service/2/7.png",
+        "title1": "Ocular Trauma Management",
+        "description": "Ocular trauma encompasses a range of injuries to the eye and surrounding structures. Our comprehensive trauma management services include rapid evaluation, medical and surgical interventions, and diligent follow-up care. Our goal is to minimize the risk of permanent vision loss by addressing injuries promptly and effectively using advanced diagnostic and treatment modalities.",
+        "procedures_we_offer": [
+          {
+            "name": "Ocular Trauma Treatment",
+            "description": "A complete approach combining medications, minor surgical procedures, and ongoing care to manage and treat eye injuries effectively."
+          }
+        ],
+        "why_choose_our_team": [
+          "Experienced Trauma Specialists",
+          "Rapid and Effective Emergency Response",
+          "State-of-the-Art Diagnostic and Surgical Tools"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "How do I know if my eye injury is serious?",
+            "answer": "Severe pain, significant vision loss, or bleeding indicate that immediate medical attention is required."
+          },
+          {
+            "question": "Can ocular trauma cause permanent vision loss?",
+            "answer": "Yes, if severe trauma is not treated promptly, it can result in lasting damage. Early intervention is crucial."
+          }
+        ],
+        "do_and_dont": {
+          "pre_treatment_do": "Seek immediate medical evaluation if you suspect a serious eye injury.",
+          "pre_treatment_dont": "Do not delay treatment or attempt home remedies for severe injuries.",
+          "post_treatment_do": "Follow all prescribed treatments and attend all follow-up appointments.",
+          "post_treatment_dont": "Avoid rubbing or applying pressure to the injured eye."
+        },
+        "symptoms_and_causes": {
+          "symptoms": [
+            "Severe eye pain",
+            "Blurred or reduced vision",
+            "Redness and swelling around the eye"
+          ],
+          "causes": [
+            "Accidental trauma or impact injuries",
+            "Penetrating injuries from foreign objects",
+            "Exposure to high-impact forces"
+          ]
+        },
+        "complications_and_preventions": {
+          "complications": [
+            "Infection",
+            "Permanent vision loss",
+            "Scar tissue formation"
+          ],
+          "preventions": [
+            "Immediate and appropriate treatment",
+            "Consistent use of protective eyewear in risky environments",
+            "Regular follow-up care"
+          ]
+        },
+        "diagnosis_and_tests": {
+          "diagnosis": [
+            "Thorough clinical examination",
+            "Imaging studies to assess the extent of injury"
+          ],
+          "tests": [
+            "CT scan",
+            "Ultrasound imaging",
+            "Slit-lamp examination"
+          ]
+        },
+        "cta": "Don’t wait—get your eye injury evaluated by our experts immediately."
+      },
+      {
+        "id": "lid-repairs",
+        "title": "Lid Repairs",
+        "image1": "assets/images/service/2/8.jpg",
+        "icon1": "assets/images/service/2/8.png",
+        "title1": "Lid Repairs",
+        "description": "Lid repairs are crucial for restoring both the function and appearance of the eyelids after trauma, infection, or due to congenital defects. Our specialized oculoplastic surgeons use refined techniques to repair eyelid lacerations and malpositions, ensuring minimal scarring and optimal cosmetic and functional results. With personalized treatment plans, we focus on restoring symmetry and protecting your ocular health.",
+        "procedures_we_offer": [
+          {
+            "name": "Eyelid Repair Surgery",
+            "description": "A surgical procedure that repairs eyelid defects and lacerations, with emphasis on both functionality and aesthetic outcome."
+          }
+        ],
+        "why_choose_our_team": [
+          "Expert Oculoplastic Surgeons",
+          "Advanced Techniques Minimizing Scarring",
+          "Personalized and Detailed Pre- and Post-Operative Care"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "What are the risks associated with eyelid surgery?",
+            "answer": "While complications are rare, potential risks include infection, minor asymmetry, and scarring. Our surgeons take extensive precautions to minimize these risks."
+          },
+          {
+            "question": "How long does recovery typically take?",
+            "answer": "Most patients notice significant improvements within a week, with full recovery varying based on individual healing responses."
+          }
+        ],
+        "do_and_dont": {
+          "pre_treatment_do": "Follow your surgeon’s pre-operative guidelines and attend your consultation for a thorough assessment.",
+          "pre_treatment_dont": "Avoid using eye makeup or creams on your eyelids for at least 24 hours before surgery.",
+          "post_treatment_do": "Apply prescribed medications, keep the area clean, and attend all follow-up appointments.",
+          "post_treatment_dont": "Refrain from rubbing or putting pressure on your eyelids during the recovery period."
+        },
+        "symptoms_and_causes": {
+          "symptoms": [
+            "Eyelid drooping or asymmetry",
+            "Redness and swelling",
+            "Visible lacerations or deformities"
+          ],
+          "causes": [
+            "Direct trauma or injury",
+            "Infection-induced damage",
+            "Congenital eyelid malformations"
+          ]
+        },
+        "complications_and_preventions": {
+          "complications": [
+            "Infection at the surgical site",
+            "Permanent scarring",
+            "Eyelid asymmetry"
+          ],
+          "preventions": [
+            "Strict pre- and post-operative care",
+            "Regular monitoring by your surgeon",
+            "Adherence to prescribed medications and hygiene practices"
+          ]
+        },
+        "diagnosis_and_tests": {
+          "diagnosis": [
+            "Comprehensive clinical examination",
+            "Detailed ocular and eyelid assessment"
+          ],
+          "tests": [
+            "Visual inspection",
+            "Photographic documentation",
+            "Imaging studies if required"
+          ]
+        },
+        "cta": "Restore your eyelid function and appearance—schedule your consultation today."
+      },
+      {
+        "id": "contact-lens-fitment",
+        "title": "Contact Lens Fitment",
+        "image1": "assets/images/service/2/9.jpg",
+        "icon1": "assets/images/service/2/9.png",
+        "title1": "Contact Lens Fitment",
+        "description": "Our contact lens fitment service offers a comprehensive evaluation to ensure your lenses are perfectly suited to your eyes. We take into account the unique shape, size, and overall health of your eyes to recommend contact lenses that provide optimal comfort, clarity, and long-term eye health. Our experienced optometrists guide you through the process, ensuring a smooth transition to contact lens wear.",
+        "procedures_we_offer": [
+          {
+            "name": "Contact Lens Fitting",
+            "description": "A thorough examination and fitting process to determine the most suitable contact lenses for your visual needs."
+          }
+        ],
+        "why_choose_our_team": [
+          "Expert Optometrists with Extensive Experience",
+          "Personalized Fitting Procedures for Maximum Comfort",
+          "Wide Range of Contact Lens Options Including Specialty Lenses"
+        ],
+        "frequently_asked_questions": [
+          {
+            "question": "How do I know if contact lenses are right for me?",
+            "answer": "A detailed eye exam will help determine the best type of contact lenses for your eyes, based on your vision and ocular health."
+          },
+          {
+            "question": "Is it difficult to adjust to wearing contact lenses?",
+            "answer": "Most patients adapt quickly with proper guidance and care provided by our experienced optometrists."
+          }
+        ],
+        "do_and_dont": {
+          "pre_treatment_do": "Get a comprehensive eye exam and follow the fitting appointment guidelines.",
+          "pre_treatment_dont": "Do not wear any makeup or lotions on your eyes before the exam.",
+          "post_treatment_do": "Follow the cleaning and care instructions diligently to maintain lens hygiene.",
+          "post_treatment_dont": "Avoid over-wearing your lenses beyond the recommended duration."
+        },
+        "symptoms_and_causes": {
+          "symptoms": [
+            "Discomfort or irritation while wearing lenses",
+            "Dryness or redness in the eyes",
+            "Blurry vision or difficulty focusing"
+          ],
+          "causes": [
+            "Improper lens fit or selection",
+            "Allergic reactions or sensitivities",
+            "Poor lens care or hygiene practices"
+          ]
+        },
+        "complications_and_preventions": {
+          "complications": [
+            "Eye infections",
+            "Chronic irritation",
+            "Contact lens overwear syndrome"
+          ],
+          "preventions": [
+            "Regular cleaning and proper handling of lenses",
+            "Strict adherence to replacement schedules",
+            "Regular follow-ups with your optometrist"
+          ]
+        },
+        "diagnosis_and_tests": {
+          "diagnosis": [
+            "Comprehensive contact lens evaluation during an eye exam"
+          ],
+          "tests": [
+            "Corneal topography",
+            "Tear film analysis",
+            "Trial lens fitting"
+          ]
+        },
+        "cta": "Experience clear, comfortable vision—book your contact lens fitting appointment now."
+      }
+    ]
+  }
+  

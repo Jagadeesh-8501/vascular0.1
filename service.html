@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+        .col-lg-3, .col-md-4, .col-sm-6, .col-12 {
+            flex: 1 1 25%;
+            max-width: 25%;
+            box-sizing: border-box;
+        }
+        .single-service-area {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .single-service-area:hover {
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+        .single-service-area .icon img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .single-service-area .title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .single-service-area .disc {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+        .btn-transparent {
+            background: transparent;
+            color: #007bff;
+            border: 2px solid #007bff;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        .btn-transparent:hover {
+            background: #007bff;
+            color: #fff;
+        }
+        .title-wrapper-left {
+            max-width: 500px;
+        }
+        .title-wrapper-left .pre {
+            font-size: 1.1rem;
+            color: #007bff;
+        }
+        .title-wrapper-left .title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .disc {
+            font-size: 1.1rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="row g-5">
+            <div class="col-lg-6">
+                <div class="title-wrapper-left">
+                    <span class="pre wow fadeInUp" data-wow-delay=".2s" data-wow-duration=".8s">Our Services</span>
+                    <h2 class="title wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".8s">
+                        We provide a wide <br> range of medical <br> services
+                    </h2>
+                    <p class="disc wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".8s">
+                        Our experienced and dedicated teams are committed to providing comprehensive
+                        patient-centered care to meet your unique health needs.
+                    </p>
+                </div>
+            </div>
+
+            <div id="services-container" class="row g-5"></div>
+        </div>
+    </header>
+
+    <script>
+        function truncateText(text, maxLength) {
+            return text.length > maxLength ? text.substring(0, maxLength) + "..." : text;
+        }
+
+        async function fetchServices() {
+            const response = await fetch('varicose.json');
+            const data = await response.json();
+            const services = data.services;
+            const container = document.getElementById('services-container');
+
+            services.forEach(service => {
+                const serviceElement = document.createElement('div');
+                serviceElement.classList.add('col-lg-3', 'col-md-4', 'col-sm-6', 'col-12', 'wow', 'fadeInUp');
+                serviceElement.setAttribute('data-wow-delay', '.2s');
+                serviceElement.setAttribute('data-wow-duration', '.8s');
+                serviceElement.innerHTML = `
+                    <div class="single-service-area">
+                        <div class="icon">
+                            <img src="assets/images/service/01.png" alt="service">
+                        </div>
+                        <h4 class="title">${service.title}</h4>
+                        <p class="disc">${truncateText(service.description, 50)}</p>
+                        <a href="service-details.html?id=${service.id}" class="btn-transparent">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                `;
+                container.appendChild(serviceElement);
+            });
+        }
+
+        fetchServices();
+    </script>
+
+</body>
+</html>

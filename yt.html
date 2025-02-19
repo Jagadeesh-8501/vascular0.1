@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery with Ripple Effect</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        /* Video Gallery */
+        .video-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        /* Card Style */
+        .video-card {
+            position: relative;
+            width: 100%;
+            max-width: 300px;
+            cursor: pointer;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .video-card:hover {
+            transform: scale(1.05);
+        }
+
+        .video-card img {
+            width: 100%;
+            display: block;
+            border-radius: 10px;
+        }
+
+        /* Pulsating Play Button with Ripple Effect */
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            color: white;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 50%;
+            padding: 20px;
+            transition: background 0.3s;
+            animation: pulse 1.5s infinite;
+        }
+
+        .play-button:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Ripple Effect */
+        .play-button::before {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #6461f9;
+            border-radius: 50%;
+            z-index: -1;
+            animation: ripple 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: translate(-50%, -50%) scale(1);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.1);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+            }
+        }
+
+        @keyframes ripple {
+            0% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(2.5);
+                opacity: 0;
+            }
+        }
+
+        /* Modal Style */
+        .video-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .video-modal-content {
+            position: relative;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .close-button {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+            background: red;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .video-modal-content {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Video Gallery -->
+    <div class="video-gallery">
+        <div class="video-card" data-video-id="05c5l1UGhtE?si=EiBoiweDQR6ws8aP" onclick="openVideo(this)">
+            <img src="assets/images/gallary/1.jpg" alt="Video Thumbnail">
+            <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+        </div>
+
+        <div class="video-card" data-video-id="6LPuqK54dAk?si=FsAOkd9hIoffYeiE" onclick="openVideo(this)">
+            <img src="assets/images/gallary/6.jpg" alt="Video Thumbnail">
+            <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+        </div>
+
+        <div class="video-card" data-video-id="QZlMuJ0X_9Q?si=TFRBf0emzXQuG50u" onclick="openVideo(this)">
+            <img src="assets/images/gallary/5.jpg" alt="Video Thumbnail">
+            <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+        </div>
+        
+        <div class="video-card" data-video-id="yFh16JGs1tk?si=IU5wCUplUo29EACT" onclick="openVideo(this)">
+            <img src="assets/images/gallary/4.jpg" alt="Video Thumbnail">
+            <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+        </div>
+        
+        <div class="video-card" data-video-id="ujqkU5YFJ88?si=t7pD375tBn78zf9K" onclick="openVideo(this)">
+            <img src="assets/images/gallary/3.jpg" alt="Video Thumbnail">
+            <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+        </div>
+        
+        <div class="video-card" data-video-id="XK4sW72WVNw?si=ZZUdTeSE5BJnXyyy" onclick="openVideo(this)">
+            <img src="assets/images/gallary/2.jpg" alt="Video Thumbnail">
+            <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+        </div>
+
+        
+        <div class="video-card" data-video-id="16TmoaxHGxs?si=BixYWg_0Msjk4-Wn" onclick="openVideo(this)">
+            <img src="assets/images/gallary/8.jpg" alt="Video Thumbnail">
+            <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+        </div>
+        
+
+        
+        <div class="video-card" data-video-id="mkk1gRkNBWU?si=c6ozbaWWg33gL0iL" onclick="openVideo(this)">
+            <img src="assets/images/gallary/9.jpg" alt="Video Thumbnail">
+            <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+        </div>
+        
+        <div class="video-card" data-video-id="05c5l1UGhtE?si=9MzEh5yaFpjllsm7" onclick="openVideo(this)">
+            <img src="assets/images/gallary/3.jpg" alt="Video Thumbnail">
+            <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+        </div>
+
+        <!-- Add More Video Cards Here -->
+    </div>
+
+    <!-- Video Modal -->
+    <div class="video-modal" id="videoModal">
+        <div class="video-modal-content">
+            <span class="close-button" onclick="closeVideo()">&times;</span>
+            <iframe id="youtubeVideo" width="100%" height="400px"
+                src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script>
+        function openVideo(element) {
+            let videoId = element.getAttribute("data-video-id");
+            let videoModal = document.getElementById("videoModal");
+            let youtubeVideo = document.getElementById("youtubeVideo");
+
+            // Set the video URL dynamically for each clicked card
+            youtubeVideo.src = "https://www.youtube.com/embed/" + videoId + "?autoplay=1&controls=0&rel=0";
+            videoModal.style.display = "flex";
+        }
+
+        function closeVideo() {
+            let videoModal = document.getElementById("videoModal");
+            let youtubeVideo = document.getElementById("youtubeVideo");
+
+            // Stop the video when modal closes
+            youtubeVideo.src = "";
+            videoModal.style.display = "none";
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,1136 @@
+{
+  "services": [
+    {
+      "id": "peripheral-vascular-surgery",
+      "title": "Peripheral Vascular Surgery",
+      "image1": "assets/images/service/1/8.jpg",
+      "icon1": "assets/images/service/1/8.png",
+      "title1": "Peripheral Vascular Surgery",
+      "description": "Peripheral vascular surgery addresses diseases affecting blood vessels outside the heart and brain, particularly in the limbs. Procedures range from angioplasty to bypass surgery and endarterectomy, aimed at restoring blood flow, relieving pain, and preventing limb loss.",
+      "procedures_we_offer": [
+        {
+          "name": "Bypass Surgery",
+          "description": "Creates an alternate route for blood flow around blocked arteries."
+        },
+        {
+          "name": "Angioplasty",
+          "description": "Uses a balloon catheter to dilate narrowed arteries."
+        },
+        {
+          "name": "Endarterectomy",
+          "description": "Removes plaque buildup from the arterial walls."
+        }
+      ],
+      "why_choose_our_team": [
+        "Experienced Vascular Surgeons",
+        "Minimally Invasive and Traditional Options",
+        "Personalized Treatment Plans",
+        "Comprehensive Post-Operative Care"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "What conditions qualify for peripheral vascular surgery?",
+          "answer": "Patients with significant arterial blockages, severe claudication, or critical limb ischemia may benefit from these procedures."
+        },
+        {
+          "question": "What is the recovery time?",
+          "answer": "Recovery varies by procedure, with minimally invasive techniques often allowing a return to normal activities within a few weeks."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Undergo a thorough vascular evaluation and follow all pre-operative instructions.",
+        "pre_treatment_dont": "Avoid smoking and strenuous activities before surgery.",
+        "post_treatment_do": "Adhere to rehabilitation protocols and attend all follow-up appointments.",
+        "post_treatment_dont": "Do not resume heavy activities until cleared by your surgeon."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Leg pain during walking (claudication)",
+          "Numbness or weakness in the legs",
+          "Poor wound healing on the feet"
+        ],
+        "causes": [
+          "Atherosclerosis",
+          "High blood pressure",
+          "Diabetes and lifestyle factors"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Infection",
+          "Graft failure",
+          "Re-occlusion of the treated artery"
+        ],
+        "preventions": [
+          "Regular exercise and healthy diet",
+          "Smoking cessation",
+          "Strict adherence to medication and follow-ups"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Vascular ultrasound",
+          "Angiography",
+          "Ankle-Brachial Index (ABI) test"
+        ],
+        "tests": [
+          "Doppler ultrasound",
+          "CT angiography",
+          "MRI angiography"
+        ]
+      },
+      "cta": "Schedule your vascular evaluation today to improve your circulation and limb health."
+    },
+    {
+      "id": "carotid-artery-disease",
+      "title": "Carotid Artery Disease",
+      "image1": "assets/images/service/1/9.jpg",
+      "icon1": "assets/images/service/1/9.png",
+
+      "title1": "Carotid Artery Disease",
+      "description": "Carotid artery disease occurs when plaque builds up in the carotid arteries, reducing blood flow to the brain and increasing the risk of stroke. Treatment may involve lifestyle changes, medication, or surgical intervention such as carotid endarterectomy or stenting.",
+      "procedures_we_offer": [
+        {
+          "name": "Carotid Endarterectomy",
+          "description": "Surgical removal of plaque from the carotid artery to restore blood flow."
+        },
+        {
+          "name": "Carotid Artery Stenting",
+          "description": "A minimally invasive procedure that places a stent to keep the carotid artery open."
+        }
+      ],
+      "why_choose_our_team": [
+        "Experienced Vascular and Stroke Specialists",
+        "State-of-the-Art Diagnostic Imaging",
+        "Comprehensive Pre- and Post-Operative Care"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "What are the risks of carotid artery disease?",
+          "answer": "It increases the risk of stroke due to reduced blood flow to the brain."
+        },
+        {
+          "question": "How is it treated?",
+          "answer": "Treatment options include lifestyle changes, medications, and surgical interventions like endarterectomy or stenting."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Follow a heart-healthy diet, exercise regularly, and undergo regular screenings.",
+        "pre_treatment_dont": "Avoid smoking and high-cholesterol foods.",
+        "post_treatment_do": "Take all prescribed medications and attend follow-up visits.",
+        "post_treatment_dont": "Do not resume strenuous activities too early."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Transient ischemic attacks (TIAs)",
+          "Sudden weakness or numbness on one side",
+          "Difficulty speaking or understanding speech"
+        ],
+        "causes": [
+          "Plaque buildup due to atherosclerosis",
+          "High blood pressure and high cholesterol",
+          "Smoking and sedentary lifestyle"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Stroke",
+          "Transient ischemic attacks (mini-strokes)",
+          "Severe brain damage"
+        ],
+        "preventions": [
+          "Regular monitoring of blood pressure and cholesterol",
+          "Adopting a healthy lifestyle",
+          "Timely surgical intervention when necessary"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Carotid ultrasound",
+          "CT or MRI angiography",
+          "Physical neurological examination"
+        ],
+        "tests": [
+          "Doppler ultrasound",
+          "CT angiography",
+          "MRI"
+        ]
+      },
+      "cta": "Contact us for a comprehensive carotid evaluation and reduce your risk of stroke."
+    },
+
+    {
+      "id": "varicose-veins",
+      "title": "Varicose Veins Treatment: Restore Comfort and Confidence",
+      "image1": "assets/images/service/1/11.jpg",
+      "icon1": "assets/images/service/1/11.png",
+
+      "title1": "Varicose Veins Treatment",
+      "description": "Varicose veins are enlarged, twisted veins that appear predominantly in the legs due to weakened vein walls and valves. This condition leads to discomfort, swelling, and aching, thereby affecting your daily activities and overall quality of life. Our expert vascular specialists offer advanced, minimally invasive procedures to relieve symptoms, improve circulation, and enhance the appearance of affected veins. We provide treatments that minimize downtime while delivering long-lasting results.",
+      "procedures_we_offer": [
+        {
+          "name": "Endovenous Laser Treatment (EVLT)",
+          "description": "A laser procedure that seals off damaged veins, rerouting blood to healthier vessels with minimal discomfort."
+        },
+        {
+          "name": "Sclerotherapy",
+          "description": "An injection-based treatment that collapses small varicose veins, allowing them to fade over time."
+        },
+        {
+          "name": "Radiofrequency Ablation (RFA)",
+          "description": "A technique that uses heat energy to close off problematic veins and improve blood flow."
+        },
+        {
+          "name": "Microphlebectomy",
+          "description": "A surgical method to remove larger varicose veins through tiny incisions, resulting in minimal scarring."
+        }
+      ],
+      "why_choose_our_team": [
+        "Board-Certified Vascular Specialists",
+        "Minimally Invasive Techniques for Rapid Recovery",
+        "Personalized Treatment Plans",
+        "Advanced Technology for Lasting Results"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "What causes varicose veins?",
+          "answer": "They result from weakened or damaged vein valves that hinder proper blood flow, leading to enlarged veins."
+        },
+        {
+          "question": "Are varicose veins dangerous?",
+          "answer": "While primarily a cosmetic issue, untreated varicose veins can cause complications like ulcers and deep vein thrombosis (DVT)."
+        },
+        {
+          "question": "Is the treatment painful?",
+          "answer": "Modern treatments are minimally invasive and typically cause little to no discomfort."
+        },
+        {
+          "question": "How quickly can I return to normal activities?",
+          "answer": "Most patients resume normal activities within 24-48 hours post-treatment."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Attend all pre-operative consultations and follow dietary and medication guidelines.",
+        "pre_treatment_dont": "Avoid alcohol and any non-prescribed medications before the procedure.",
+        "post_treatment_do": "Use prescribed compression stockings and medications, and follow up with your doctor.",
+        "post_treatment_dont": "Do not rub the treated area or engage in heavy physical activity immediately after treatment."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Leg pain and heaviness",
+          "Swelling and cramping",
+          "Visible, twisted veins"
+        ],
+        "causes": [
+          "Degeneration of vein valves with age",
+          "Genetic factors",
+          "Obesity and prolonged standing"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Skin ulcers",
+          "Blood clots",
+          "Chronic leg pain"
+        ],
+        "preventions": [
+          "Regular exercise",
+          "Healthy diet and weight management",
+          "Periodic vascular evaluations"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Physical examination and duplex ultrasound",
+          "Visual assessment of the leg veins"
+        ],
+        "tests": [
+          "Venous reflux study",
+          "Doppler ultrasound",
+          "Advanced vein mapping"
+        ]
+      },
+      "cta": "Book your consultation today to improve your leg health and restore comfort."
+    },
+    {
+      "id": "deep-vein-thrombosis",
+      "title": "Deep Vein Thrombosis (DVT) Treatment: Preventing Life-Threatening Clots",
+      "image1": "assets/images/service/1/1.jpg",
+      "icon1": "assets/images/service/1/1.png",
+
+      "title1": "Deep Vein Thrombosis (DVT) Treatment",
+      "description": "Deep vein thrombosis (DVT) is a critical condition characterized by the formation of blood clots in the deep veins, usually in the legs. These clots can break loose and travel to the lungs, causing a life-threatening pulmonary embolism. Our experienced vascular team provides prompt and effective treatment options to dissolve clots, restore circulation, and minimize the risk of complications.",
+      "procedures_we_offer": [
+        {
+          "name": "Thrombectomy",
+          "description": "A minimally invasive procedure using a catheter to remove clots from the veins."
+        },
+        {
+          "name": "Thrombolysis",
+          "description": "Delivers clot-dissolving medication directly to the clot site for rapid breakdown."
+        },
+        {
+          "name": "Compression Therapy",
+          "description": "Uses specialized stockings to enhance circulation and reduce swelling."
+        },
+        {
+          "name": "Anticoagulation Therapy",
+          "description": "Administers blood-thinning medications to prevent new clots from forming."
+        }
+      ],
+      "why_choose_our_team": [
+        "Expert Vascular and Interventional Specialists",
+        "Advanced Diagnostic Tools for Early Detection",
+        "Minimally Invasive Treatment Approaches",
+        "Personalized Patient Care and Long-Term Monitoring"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "What are the signs of DVT?",
+          "answer": "Symptoms include leg pain, swelling, warmth, and redness. Immediate medical attention is required if these occur."
+        },
+        {
+          "question": "Can DVT be prevented?",
+          "answer": "Yes, through regular exercise, proper hydration, and, when necessary, the use of compression stockings or blood thinners."
+        },
+        {
+          "question": "Is DVT treatment painful?",
+          "answer": "Modern minimally invasive treatments typically cause little discomfort."
+        },
+        {
+          "question": "Will I need lifelong anticoagulation therapy?",
+          "answer": "Treatment duration varies based on individual risk factors; some may require long-term therapy."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Follow pre-treatment instructions regarding mobility and hydration.",
+        "pre_treatment_dont": "Avoid prolonged immobility and consult your doctor about any medications that may increase clot risk.",
+        "post_treatment_do": "Wear compression stockings and adhere to your medication regimen.",
+        "post_treatment_dont": "Do not remain sedentary for extended periods."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Swelling and pain in one leg",
+          "Warmth and redness over the affected area",
+          "A sensation of heaviness"
+        ],
+        "causes": [
+          "Prolonged immobilization",
+          "Recent surgery or trauma",
+          "Inherited clotting disorders",
+          "Obesity and sedentary lifestyle"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Pulmonary embolism",
+          "Post-thrombotic syndrome",
+          "Chronic venous insufficiency"
+        ],
+        "preventions": [
+          "Early mobilization and use of compression therapy",
+          "Adherence to prescribed anticoagulants",
+          "Regular follow-up and lifestyle modifications"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Clinical examination and assessment of symptoms",
+          "Duplex ultrasound of the deep veins"
+        ],
+        "tests": [
+          "Doppler ultrasound",
+          "Venography",
+          "Blood coagulation tests"
+        ]
+      },
+      "cta": "Contact us immediately if you suspect DVT to prevent life-threatening complications."
+    },
+    {
+      "id": "aortic-aneurysm-stenting",
+      "title": "Aortic Aneurysm Stenting: Protecting Your Heart and Circulation",
+      "title1": "Aortic Aneurysm Stenting",
+      "image1": "assets/images/service/1/2.jpg",
+      "icon1": "assets/images/service/1/2.png",
+
+      "description": "An aortic aneurysm is a dangerous dilation in the aorta that can lead to catastrophic internal bleeding if it ruptures. Our advanced aortic aneurysm stenting procedure reinforces the weakened section of the aorta with a stent graft, thereby reducing rupture risk, restoring blood flow, and improving long-term vascular health.",
+      "procedures_we_offer": [
+        {
+          "name": "Endovascular Aneurysm Repair (EVAR)",
+          "description": "A minimally invasive procedure that inserts a stent graft within the aneurysm to reinforce the artery wall."
+        },
+        {
+          "name": "Thoracic Endovascular Aneurysm Repair (TEVAR)",
+          "description": "A specialized approach for treating thoracic aortic aneurysms by reducing pressure on the arterial walls."
+        },
+        {
+          "name": "Open Aortic Aneurysm Surgery",
+          "description": "A conventional surgical method replacing the weakened segment with a synthetic graft."
+        }
+      ],
+      "why_choose_our_team": [
+        "Expert Vascular Surgeons with Advanced Endovascular Skills",
+        "Minimally Invasive Techniques for Faster Recovery",
+        "State-of-the-Art Imaging and Surgical Technology",
+        "Comprehensive Pre- and Postoperative Care",
+        "Proven Track Record in Aneurysm Management"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "What are the symptoms of an aortic aneurysm?",
+          "answer": "Aneurysms are often asymptomatic, but some may cause back or chest pain or a pulsating sensation in the abdomen."
+        },
+        {
+          "question": "How serious is an aortic aneurysm?",
+          "answer": "Aneurysms can be life-threatening if they rupture; early detection and treatment are crucial."
+        },
+        {
+          "question": "Is the stent graft permanent?",
+          "answer": "Yes, the stent graft is intended as a long-term solution, though regular monitoring is essential."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Attend all preoperative evaluations and follow fasting instructions.",
+        "pre_treatment_dont": "Avoid alcohol, smoking, and medications that may interfere with clotting before surgery.",
+        "post_treatment_do": "Adhere to your medication regimen and attend all follow-up visits.",
+        "post_treatment_dont": "Avoid heavy lifting and strenuous activities during recovery."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Back or chest pain",
+          "Pulsating sensation in the abdomen",
+          "General fatigue"
+        ],
+        "causes": [
+          "High blood pressure",
+          "Atherosclerosis",
+          "Genetic factors",
+          "Smoking and aging"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Aneurysm rupture",
+          "Internal bleeding",
+          "Organ failure"
+        ],
+        "preventions": [
+          "Regular blood pressure control",
+          "Healthy lifestyle changes",
+          "Timely surgical intervention and follow-up care"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Detailed clinical evaluation",
+          "Imaging studies to assess aneurysm size and location"
+        ],
+        "tests": [
+          "CT scan",
+          "Ultrasound",
+          "MRI angiography"
+        ]
+      },
+      "cta": "Contact us today for a comprehensive evaluation and to discuss your aneurysm treatment options."
+    },
+    {
+      "id": "diabetic-foot",
+      "title": "Diabetic Foot and Ulcer Management: Preventing Complications",
+      "title1": "Diabetic Foot and Ulcer Management",
+      "image1": "assets/images/service/1/3.jpg",
+      "icon1": "assets/images/service/1/3.png",
+
+      "description": "Diabetic foot ulcers result from poor circulation and nerve damage in diabetic patients, often leading to severe infections and, in worst cases, amputation. Our comprehensive care includes wound debridement, revascularization procedures, and advanced wound management strategies to promote healing and prevent further complications.",
+      "procedures_we_offer": [
+        {
+          "name": "Wound Debridement",
+          "description": "Removal of dead or infected tissue to encourage healthy healing."
+        },
+        {
+          "name": "Angioplasty and Stenting",
+          "description": "Minimally invasive procedures to improve blood flow to the foot."
+        },
+        {
+          "name": "Hyperbaric Oxygen Therapy (HBOT)",
+          "description": "Increasing blood oxygen levels to accelerate wound healing and fight infection."
+        },
+        {
+          "name": "Custom Orthotics and Footwear",
+          "description": "Specialized insoles and shoes to reduce pressure on vulnerable areas."
+        }
+      ],
+      "why_choose_our_team": [
+        "Multidisciplinary Diabetic Foot Care Experts",
+        "Advanced Wound Healing and Revascularization Techniques",
+        "Personalized, Patient-Centered Care",
+        "Focused Infection Control and Preventive Strategies"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "What causes diabetic foot ulcers?",
+          "answer": "They are primarily caused by a combination of poor circulation, nerve damage, and prolonged pressure on the feet."
+        },
+        {
+          "question": "How can diabetic foot ulcers be prevented?",
+          "answer": "Regular foot care, proper hygiene, protective footwear, and tight blood sugar control are key to prevention."
+        },
+        {
+          "question": "Is surgery necessary for all diabetic foot ulcers?",
+          "answer": "Not always; many ulcers can be managed with conservative treatment, but severe cases may require surgical intervention."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Follow your doctor’s recommendations on foot care and blood sugar management.",
+        "pre_treatment_dont": "Avoid neglecting regular foot inspections or delaying medical consultation for wounds.",
+        "post_treatment_do": "Keep wounds clean, adhere to treatment plans, and attend follow-up visits.",
+        "post_treatment_dont": "Do not walk barefoot or use unapproved home remedies on the ulcers."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Persistent foot pain",
+          "Swelling and redness around ulcers",
+          "Slow-healing wounds",
+          "Numbness in the foot"
+        ],
+        "causes": [
+          "Diabetic neuropathy",
+          "Poor circulation",
+          "Prolonged pressure on the feet",
+          "Inadequate foot care"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Severe infections",
+          "Gangrene",
+          "Amputation",
+          "Loss of mobility"
+        ],
+        "preventions": [
+          "Regular foot inspections and early wound care",
+          "Strict blood sugar control",
+          "Use of custom orthotics and proper footwear"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Detailed foot examination",
+          "Circulation and nerve function assessment"
+        ],
+        "tests": [
+          "Doppler ultrasound",
+          "X-rays or MRI",
+          "Blood tests for infection markers"
+        ]
+      },
+      "cta": "Book your consultation today to protect your feet and prevent serious complications."
+    },
+    {
+      "id": "peripheral-artery-disease",
+      "title": "Peripheral Artery Disease (PAD) Treatment: Restoring Circulation",
+      "title1": "Peripheral Artery Disease",
+      "image1": "assets/images/service/1/4.jpg",
+      "icon1": "assets/images/service/1/11.png",
+      "description": "Peripheral Artery Disease (PAD) is caused by the narrowing or blockage of arteries in the limbs due to plaque buildup. This condition leads to pain, cramping, and reduced mobility, and if untreated, can cause tissue damage or amputation. Our specialized treatments aim to restore blood flow, alleviate symptoms, and improve quality of life through a combination of minimally invasive procedures and lifestyle modifications.",
+      "procedures_we_offer": [
+        {
+          "name": "Angioplasty and Stenting",
+          "description": "A minimally invasive procedure that uses a balloon to open narrowed arteries, followed by stent placement to keep the vessel open."
+        },
+        {
+          "name": "Atherectomy",
+          "description": "Removes plaque buildup from arteries to improve blood flow and relieve symptoms."
+        },
+        {
+          "name": "Bypass Surgery",
+          "description": "Creates an alternative route for blood flow around blocked arteries."
+        },
+        {
+          "name": "Medications and Lifestyle Management",
+          "description": "Combines prescription medications with lifestyle changes to manage symptoms and prevent disease progression."
+        }
+      ],
+      "why_choose_our_team": [
+        "Experienced Vascular Surgeons Specializing in PAD",
+        "Advanced Diagnostic Testing for Early Detection",
+        "Customized Treatment Plans for Optimal Outcomes",
+        "Minimally Invasive and Surgical Options",
+        "Commitment to Long-Term Prevention and Education"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "What are the symptoms of PAD?",
+          "answer": "Common symptoms include leg pain, cramping, numbness, and coldness in the lower extremities, particularly during exercise."
+        },
+        {
+          "question": "Can PAD be reversed?",
+          "answer": "While PAD cannot be fully reversed, treatments can significantly improve symptoms and prevent further complications."
+        },
+        {
+          "question": "Is PAD treatment painful?",
+          "answer": "Most minimally invasive treatments are associated with little to no pain."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Maintain a healthy diet and exercise regularly; attend all cardiovascular evaluations.",
+        "pre_treatment_dont": "Avoid smoking and high-fat foods.",
+        "post_treatment_do": "Follow your treatment plan, including medications and lifestyle modifications.",
+        "post_treatment_dont": "Refrain from excessive physical exertion until fully recovered."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Leg pain or cramping during activity",
+          "Numbness or weakness in the legs",
+          "Coldness in the lower leg or foot",
+          "Slow-healing wounds on the feet"
+        ],
+        "causes": [
+          "Atherosclerosis (plaque buildup)",
+          "High cholesterol and high blood pressure",
+          "Smoking",
+          "Diabetes"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Tissue damage or gangrene",
+          "Increased risk of heart attack or stroke",
+          "Chronic pain and reduced mobility"
+        ],
+        "preventions": [
+          "Regular exercise and a balanced diet",
+          "Smoking cessation",
+          "Routine monitoring and follow-up care"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Comprehensive vascular examination",
+          "Measurement of the ankle-brachial index (ABI)"
+        ],
+        "tests": [
+          "Doppler ultrasound",
+          "Angiography",
+          "ABI test"
+        ]
+      },
+      "cta": "Schedule your consultation today to restore circulation and improve your quality of life."
+    },
+    {
+      "id": "endovascular-aneurysm-repair",
+      "title": "Endovascular Aneurysm Repair (EVAR)",
+      "title1": "Endovascular Aneurysm Repair",
+      "image1": "assets/images/service/1/12.jpg",
+      "icon1": "assets/images/service/1/12.png",
+
+      "description": "Endovascular Aneurysm Repair (EVAR) is a minimally invasive procedure used to treat aneurysms in various arteries. By inserting a stent graft through small incisions, EVAR reinforces the vessel wall and prevents rupture, offering a safer alternative to open surgery.",
+      "procedures_we_offer": [
+        {
+          "name": "EVAR Procedure",
+          "description": "Insertion of a stent graft to exclude the aneurysm from circulation, reducing the risk of rupture."
+        }
+      ],
+      "why_choose_our_team": [
+        "Highly Experienced Endovascular Specialists",
+        "Minimally Invasive Techniques for Rapid Recovery",
+        "Advanced Imaging and Surgical Technology"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "How is EVAR different from open surgery?",
+          "answer": "EVAR is less invasive, involves smaller incisions, and generally offers a faster recovery than traditional open repair."
+        },
+        {
+          "question": "What is the success rate of EVAR?",
+          "answer": "EVAR has a high success rate, but long-term monitoring is essential to ensure continued effectiveness."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Complete all pre-procedure assessments and follow fasting instructions.",
+        "pre_treatment_dont": "Avoid any non-prescribed medications that may affect blood clotting.",
+        "post_treatment_do": "Follow your prescribed medication regimen and attend follow-up visits.",
+        "post_treatment_dont": "Do not engage in heavy lifting or strenuous activities during recovery."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Often asymptomatic until rupture",
+          "Mild back or abdominal discomfort in some cases"
+        ],
+        "causes": [
+          "Degeneration of the arterial wall",
+          "High blood pressure",
+          "Atherosclerosis"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Stent migration",
+          "Endoleak (persistent blood flow into the aneurysm)",
+          "Infection"
+        ],
+        "preventions": [
+          "Regular monitoring through imaging studies",
+          "Strict adherence to post-operative care",
+          "Lifestyle modifications to control blood pressure"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Imaging studies to assess aneurysm size and location"
+        ],
+        "tests": [
+          "CT scan",
+          "Ultrasound",
+          "MRI angiography"
+        ]
+      },
+      "cta": "Contact us today to learn if EVAR is the right option for your aneurysm management."
+    },
+    {
+      "id": "av-fistula",
+      "title": "Arteriovenous Fistula Creation",
+      "title1": "Arteriovenous Fistula",
+      "image1": "assets/images/service/1/13.jpg",
+      "icon1": "assets/images/service/1/13.png",
+
+      "description": "An arteriovenous (AV) fistula is a surgically created connection between an artery and a vein, commonly used to provide reliable access for hemodialysis. This procedure ensures efficient blood flow and minimizes the risk of clotting or infection.",
+      "procedures_we_offer": [
+        {
+          "name": "AV Fistula Creation",
+          "description": "A surgical procedure to create a durable access point by connecting an artery to a vein."
+        }
+      ],
+      "why_choose_our_team": [
+        "Experienced Vascular Surgeons",
+        "High Success Rate in AV Fistula Creation",
+        "Minimal Downtime and Quick Maturation",
+        "Comprehensive Pre- and Post-Operative Care"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "How long does it take for an AV fistula to mature?",
+          "answer": "Typically, an AV fistula matures in 6-8 weeks before it can be used for dialysis."
+        },
+        {
+          "question": "What are the risks associated with AV fistula creation?",
+          "answer": "Risks include infection, clotting, or inadequate blood flow, though these are minimized with proper care."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Attend all pre-operative evaluations and follow your doctor's instructions closely.",
+        "pre_treatment_dont": "Avoid any activities that may strain your vascular system before surgery.",
+        "post_treatment_do": "Follow post-operative care instructions and protect the fistula site.",
+        "post_treatment_dont": "Do not lift heavy objects or engage in strenuous exercise until cleared by your doctor."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Poor blood flow or swelling at the fistula site",
+          "Difficulty in dialysis if access fails"
+        ],
+        "causes": [
+          "Improper surgical technique",
+          "Infection or clot formation",
+          "Patient-specific vascular issues"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Fistula thrombosis",
+          "Infection",
+          "Failure to mature"
+        ],
+        "preventions": [
+          "Regular monitoring and early intervention",
+          "Strict adherence to aseptic techniques",
+          "Proper post-operative care"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Physical examination of the AV fistula",
+          "Ultrasound assessment for blood flow"
+        ],
+        "tests": [
+          "Doppler ultrasound",
+          "Access flow measurement"
+        ]
+      },
+      "cta": "Schedule your evaluation today to create a reliable dialysis access point."
+    },
+    {
+      "id": "aortic-dissection-repair",
+      "title": "Aortic Dissection Repair",
+      "title1": "Aortic Dissection Repair",
+      "image1": "assets/images/service/1/14.jpg",
+      "icon1": "assets/images/service/1/14.png",
+
+      "description": "Aortic dissection is a life-threatening emergency in which the inner layer of the aorta tears, causing blood to flow between the layers of the wall. Our rapid-response surgical repair aims to reapproximate the aortic layers and restore the integrity of the vessel, preventing catastrophic rupture.",
+      "procedures_we_offer": [
+        {
+          "name": "Surgical Aortic Dissection Repair",
+          "description": "An emergency open or hybrid surgical approach to repair the torn layers of the aorta and stabilize blood flow."
+        }
+      ],
+      "why_choose_our_team": [
+        "Expert Cardiothoracic and Vascular Surgeons",
+        "Rapid Response to Emergencies",
+        "Advanced Surgical and Monitoring Techniques"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "What are the signs of an aortic dissection?",
+          "answer": "Severe chest or back pain, often described as tearing or ripping, along with symptoms of shock."
+        },
+        {
+          "question": "How urgent is treatment for aortic dissection?",
+          "answer": "It is a medical emergency requiring immediate surgical intervention to prevent rupture and death."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Seek emergency medical attention immediately if dissection is suspected.",
+        "pre_treatment_dont": "Do not delay treatment or attempt to self-medicate.",
+        "post_treatment_do": "Follow intensive post-operative care and monitoring protocols.",
+        "post_treatment_dont": "Avoid any physical strain until fully recovered."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Sudden, severe chest or back pain",
+          "Shortness of breath",
+          "Signs of shock (rapid heartbeat, low blood pressure)"
+        ],
+        "causes": [
+          "Hypertension",
+          "Atherosclerosis",
+          "Genetic connective tissue disorders"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Aortic rupture",
+          "Cardiac tamponade",
+          "Organ failure"
+        ],
+        "preventions": [
+          "Aggressive blood pressure management",
+          "Regular cardiovascular screenings",
+          "Lifestyle modifications and medication adherence"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Emergency imaging studies",
+          "Clinical evaluation in an ICU setting"
+        ],
+        "tests": [
+          "CT angiography",
+          "Transesophageal echocardiography (TEE)",
+          "MRI"
+        ]
+      },
+      "cta": "If you suspect an aortic dissection, seek emergency care immediately."
+    },
+    {
+      "id": "renal-artery-stent",
+      "title": "Renal Artery Stenting",
+      "title1": "Renal Artery Stenting",
+      "image1": "assets/images/service/1/15.jpg",
+      "icon1": "assets/images/service/1/15.png",
+
+      "description": "Renal artery stenosis can impair blood flow to the kidneys and lead to high blood pressure and kidney damage. Our renal artery stenting procedure involves the placement of a stent to widen the narrowed artery, improving kidney function and controlling blood pressure.",
+      "procedures_we_offer": [
+        {
+          "name": "Renal Artery Stenting",
+          "description": "A minimally invasive procedure to insert a stent that reopens the narrowed renal artery, enhancing blood flow to the kidneys."
+        }
+      ],
+      "why_choose_our_team": [
+        "Expert Interventional Radiologists and Vascular Surgeons",
+        "Minimally Invasive Approach",
+        "Comprehensive Pre- and Post-Procedure Care"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "How effective is renal artery stenting?",
+          "answer": "The procedure is highly effective in improving blood flow and controlling blood pressure in most patients."
+        },
+        {
+          "question": "Are there any risks involved?",
+          "answer": "As with all procedures, there are risks such as bleeding or stent re-narrowing, but these are minimized with proper care."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Undergo all recommended kidney function tests and imaging studies.",
+        "pre_treatment_dont": "Avoid medications that may impair blood clotting, as advised by your physician.",
+        "post_treatment_do": "Follow your prescribed medication regimen and attend follow-up appointments.",
+        "post_treatment_dont": "Avoid strenuous activities until your doctor confirms it is safe."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "High blood pressure resistant to treatment",
+          "Flank pain",
+          "Worsening kidney function"
+        ],
+        "causes": [
+          "Atherosclerosis",
+          "Fibromuscular dysplasia",
+          "Long-standing hypertension"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Stent restenosis",
+          "Bleeding",
+          "Contrast-induced nephropathy"
+        ],
+        "preventions": [
+          "Regular imaging follow-ups",
+          "Medication adherence",
+          "Lifestyle modifications"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Renal artery Doppler ultrasound",
+          "CT angiography"
+        ],
+        "tests": [
+          "Blood tests for kidney function",
+          "Renal scintigraphy"
+        ]
+      },
+      "cta": "Improve your kidney health—book a consultation for renal artery stenting today."
+    },
+    {
+      "id": "vascular-bypass-surgery",
+      "title": "Vascular Bypass Surgery",
+      "title1": "Vascular Bypass Surgery",
+      "image1": "assets/images/service/1/16.jpg",
+      "icon1": "assets/images/service/1/16.png",
+
+      "description": "Vascular bypass surgery is performed to reroute blood around a blocked or narrowed artery, restoring proper blood flow to the affected area. This surgery is commonly used to treat severe cases of peripheral artery disease, helping to relieve pain and prevent tissue damage.",
+      "procedures_we_offer": [
+        {
+          "name": "Bypass Surgery",
+          "description": "Surgical creation of an alternative pathway for blood flow, bypassing a blocked artery."
+        }
+      ],
+      "why_choose_our_team": [
+        "Experienced Cardiothoracic and Vascular Surgeons",
+        "Customized Surgical Approaches",
+        "State-of-the-Art Operating Facilities",
+        "Comprehensive Pre- and Post-Operative Care"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "How is vascular bypass surgery performed?",
+          "answer": "It involves grafting a vessel (from your own body or a synthetic alternative) to create a new route for blood flow around the blockage."
+        },
+        {
+          "question": "What is the recovery time?",
+          "answer": "Recovery times vary, but most patients require several weeks before resuming normal activities."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Undergo comprehensive cardiovascular screening and follow your surgeon's instructions.",
+        "pre_treatment_dont": "Avoid activities that may increase blood pressure prior to surgery.",
+        "post_treatment_do": "Adhere strictly to post-operative care and rehabilitation protocols.",
+        "post_treatment_dont": "Avoid heavy lifting or strenuous activities until fully recovered."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Severe pain in the affected limb",
+          "Cramping and fatigue during activity",
+          "Coldness or numbness in the extremities"
+        ],
+        "causes": [
+          "Advanced atherosclerosis",
+          "Plaque buildup in arteries",
+          "Long-term high blood pressure"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Graft failure",
+          "Infection",
+          "Blood clots"
+        ],
+        "preventions": [
+          "Regular monitoring and follow-up",
+          "Adherence to a healthy lifestyle",
+          "Timely intervention in case of complications"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Comprehensive vascular examination",
+          "Imaging to map arterial blockages"
+        ],
+        "tests": [
+          "CT angiography",
+          "Doppler ultrasound",
+          "Ankle-brachial index (ABI) test"
+        ]
+      },
+      "cta": "Restore your blood flow—contact us today to learn about vascular bypass surgery options."
+    },
+    {
+      "id": "endovenous-thermal-ablation",
+      "title": "Endovenous Thermal Ablation",
+      "title1": "Endovenous Thermal Ablation",
+      "image1": "assets/images/service/1/17.jpg",
+      "icon1": "assets/images/service/1/17.png",
+
+      "description": "Endovenous thermal ablation is a minimally invasive procedure that uses either radiofrequency or laser energy to close off diseased veins. This treatment is effective in reducing symptoms such as pain and swelling associated with varicose veins, and it provides a safe and efficient alternative to traditional surgical methods.",
+      "procedures_we_offer": [
+        {
+          "name": "Radiofrequency Ablation",
+          "description": "Uses radiofrequency energy to heat and seal the affected veins."
+        },
+        {
+          "name": "Laser Ablation",
+          "description": "Employs laser energy to close off problematic veins, redirecting blood flow to healthier vessels."
+        }
+      ],
+      "why_choose_our_team": [
+        "Expertise in Minimally Invasive Vein Treatments",
+        "Advanced Thermal Ablation Technology",
+        "Quick Recovery with Minimal Discomfort",
+        "Personalized Treatment Options"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "How long does the procedure take?",
+          "answer": "Endovenous thermal ablation typically takes 30-60 minutes on an outpatient basis."
+        },
+        {
+          "question": "Is there significant pain during the procedure?",
+          "answer": "The procedure is performed under local anesthesia, ensuring minimal discomfort."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Follow pre-procedure instructions regarding fasting and medication use.",
+        "pre_treatment_dont": "Avoid medications that could increase bleeding risk, as advised by your doctor.",
+        "post_treatment_do": "Wear compression stockings and adhere to post-operative guidelines.",
+        "post_treatment_dont": "Avoid strenuous activity and prolonged standing immediately after the procedure."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Leg pain and heaviness",
+          "Visible varicose veins",
+          "Swelling in the affected area"
+        ],
+        "causes": [
+          "Failure of vein valves",
+          "Prolonged periods of standing",
+          "Genetic predisposition"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Bruising or skin irritation",
+          "Phlebitis (vein inflammation)",
+          "Recurrence of varicose veins"
+        ],
+        "preventions": [
+          "Regular use of compression stockings",
+          "Healthy lifestyle choices",
+          "Consistent follow-up with your specialist"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Clinical examination of the affected veins",
+          "Ultrasound mapping of vein reflux"
+        ],
+        "tests": [
+          "Duplex ultrasound",
+          "Venous reflux study"
+        ]
+      },
+      "cta": "Book your appointment now to experience effective, minimally invasive vein treatment."
+    },
+    {
+      "id": "vascular-disease",
+      "title": "Vascular Disease Management",
+      "title1": "Vascular Disease",
+      "image1": "assets/images/service/1/18.jpg",
+      "icon1": "assets/images/service/1/18.png",
+      "description": "Vascular disease encompasses a broad range of conditions affecting the blood vessels, including arteries and veins. Our comprehensive approach to vascular disease management involves detailed diagnostics, personalized treatment plans, and a combination of medical, interventional, and surgical options to improve vascular health and overall quality of life.",
+      "procedures_we_offer": [
+        {
+          "name": "Comprehensive Vascular Evaluation",
+          "description": "An in-depth assessment to diagnose the specific type and severity of vascular disease."
+        },
+        {
+          "name": "Medical Management",
+          "description": "Customized treatment using medications, lifestyle modifications, and preventive strategies."
+        },
+        {
+          "name": "Interventional Procedures",
+          "description": "Minimally invasive treatments such as angioplasty, stenting, and ablation to restore blood flow."
+        }
+      ],
+      "why_choose_our_team": [
+        "Multidisciplinary Team of Vascular Experts",
+        "Cutting-Edge Diagnostic and Treatment Technologies",
+        "Tailored Treatment Plans for Each Patient",
+        "Commitment to Long-Term Vascular Health"
+      ],
+      "frequently_asked_questions": [
+        {
+          "question": "What types of vascular diseases do you treat?",
+          "answer": "We treat a wide range of conditions including peripheral artery disease, varicose veins, deep vein thrombosis, and more."
+        },
+        {
+          "question": "How is vascular disease diagnosed?",
+          "answer": "Diagnosis involves a comprehensive clinical examination and advanced imaging tests such as duplex ultrasound and angiography."
+        }
+      ],
+      "do_and_dont": {
+        "pre_treatment_do": "Undergo a thorough evaluation and follow all pre-treatment recommendations.",
+        "pre_treatment_dont": "Do not ignore early symptoms of vascular disease or delay treatment.",
+        "post_treatment_do": "Adhere to prescribed treatments, medications, and lifestyle changes.",
+        "post_treatment_dont": "Avoid risk factors such as smoking and a sedentary lifestyle."
+      },
+      "symptoms_and_causes": {
+        "symptoms": [
+          "Leg pain or cramping",
+          "Swelling or discoloration of the limbs",
+          "Poor wound healing",
+          "Fatigue and reduced mobility"
+        ],
+        "causes": [
+          "Atherosclerosis",
+          "High blood pressure",
+          "Diabetes",
+          "Genetic factors",
+          "Lifestyle factors such as smoking and inactivity"
+        ]
+      },
+      "complications_and_preventions": {
+        "complications": [
+          "Critical limb ischemia",
+          "Stroke or heart attack",
+          "Chronic pain and disability"
+        ],
+        "preventions": [
+          "Regular medical check-ups",
+          "Healthy lifestyle choices",
+          "Early intervention and treatment"
+        ]
+      },
+      "diagnosis_and_tests": {
+        "diagnosis": [
+          "Clinical examination",
+          "Vascular imaging studies"
+        ],
+        "tests": [
+          "Doppler ultrasound",
+          "CT angiography",
+          "Ankle-Brachial Index (ABI) test"
+        ]
+      },
+      "cta": "Improve your vascular health—schedule your comprehensive evaluation today."
+    }
+  ]
+}

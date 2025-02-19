@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vascular Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Vascular Services</h1>
+    </header>
+
+    <main>
+        <section id="services-list">
+            <ul id="services-container"></ul>
+        </section>
+    </main>
+
+    <script>
+        function truncateText(text, maxLength) {
+            return text.length > maxLength ? text.substring(0, maxLength) + "..." : text;
+        }
+
+        async function fetchServices() {
+            const response = await fetch('varicose.json');
+            const data = await response.json();
+            const services = data.services;
+            const container = document.getElementById('services-container');
+
+            services.forEach(service => {
+                const li = document.createElement('li');
+                li.innerHTML = `
+                    <h2>${service.title1}</h2>
+                    <p>${truncateText(service.description, 50)}</p>
+                    <a href="service-details.html?id=${service.id}">View Details</a>
+                `;
+                container.appendChild(li);
+            });
+        }
+
+        fetchServices();
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 id="service-title">Service Title</h1>
+    </header>
+
+    <main>
+        <p id="service-description"></p>
+
+        <h2>Procedures We Offer</h2>
+        <ul id="procedures-list"></ul>
+
+        <h2>Why Choose Our Team</h2>
+        <ul id="why-choose-list"></ul>
+
+        <h2>Frequently Asked Questions</h2>
+        <ul id="faq-list"></ul>
+
+        <a href="services.html">Back to Services</a>
+    </main>
+
+    <script>
+        async function fetchServiceDetails() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const serviceId = urlParams.get('id');
+
+            const response = await fetch('varicose.json');
+            const data = await response.json();
+            const service = data.services.find(s => s.id === serviceId);
+
+            if (!service) {
+                document.body.innerHTML = "<h1>Service Not Found</h1>";
+                return;
+            }
+
+            document.getElementById('service-title').textContent = service.title;
+            document.getElementById('service-description').textContent = service.description;
+
+            // Populate Procedures
+            const proceduresList = document.getElementById('procedures-list');
+            service.procedures_we_offer.forEach(proc => {
+                const li = document.createElement('li');
+                li.innerHTML = `<strong>${proc.name}:</strong> ${proc.description}`;
+                proceduresList.appendChild(li);
+            });
+
+            // Populate Why Choose Us
+            const whyChooseList = document.getElementById('why-choose-list');
+            service.why_choose_our_team.forEach(point => {
+                const li = document.createElement('li');
+                li.textContent = point;
+                whyChooseList.appendChild(li);
+            });
+
+            // Populate FAQs
+            const faqList = document.getElementById('faq-list');
+            service.frequently_asked_questions.forEach(faq => {
+                const li = document.createElement('li');
+                li.innerHTML = `<strong>${faq.question}</strong><br>${faq.answer}`;
+                faqList.appendChild(li);
+            });
+        }
+
+        fetchServiceDetails();
+    </script>
+</body>
+</html>

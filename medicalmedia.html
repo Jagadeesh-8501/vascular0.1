@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+    <title>Medical & Health Care
+        HTML Template</title>
+    <meta name="description" content="Your trusted source for expert healthcare services and medical information. Providing personalized care, advanced treatments, and reliable health resources to help you achieve better health.">
+    <link rel="stylesheet" href="assets/css/plugins/plugins.css">
+    <link rel="stylesheet" href="assets/css/plugins/magnifying-popup.css">
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        /* Video Gallery */
+        .video-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        /* Card Style */
+        .video-card {
+            position: relative;
+            width: 100%;
+            max-width: 300px;
+            cursor: pointer;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .video-card:hover {
+            transform: scale(1.05);
+        }
+
+        .video-card img {
+            width: 100%;
+            display: block;
+            border-radius: 10px;
+        }
+
+        /* Pulsating Play Button with Ripple Effect */
+        .play-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 50px;
+            color: white;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 50%;
+            padding: 20px;
+            transition: background 0.3s;
+            animation: pulse 1.5s infinite;
+        }
+
+        .play-button:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Ripple Effect */
+        .play-button::before {
+            content: "";
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #6461f9;
+            border-radius: 50%;
+            z-index: -1;
+            animation: ripple 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: translate(-50%, -50%) scale(1);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.1);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+            }
+        }
+
+        @keyframes ripple {
+            0% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 1;
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(2.5);
+                opacity: 0;
+            }
+        }
+
+        /* Modal Style */
+        .video-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .video-modal-content {
+            position: relative;
+            width: 80%;
+            max-width: 800px;
+        }
+
+        .close-button {
+            position: absolute;
+            top: -40px;
+            right: 0;
+            font-size: 30px;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            .video-modal-content {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header area start -->
+    <!-- header area start -->
+    <header class="header-one  header--sticky">
+        <div class="header-top-area">
+            <div class="container-full-header">
+                <div class="col-lg-12">
+                    <div class="header-top">
+                        <div class="left">
+                            <div class="map-area">
+                                <i class="fa-sharp fa-regular fa-location-dot"></i>
+                                <a href="#">                                    Oyster Uptown Building, Pillar no 1748. Madhapur
+                                </a>
+                            </div>
+                            <!-- <div class="map-area">
+                                <i class="fa-light fa-clock"></i>
+                                <a href="#">Monday - Friday 08:00 - 20:00</a>
+                            </div> -->
+                        </div>
+                        <div class="right">
+                            <div class="map-area">
+                                <i class="fa-regular fa-phone"></i>
+                                <a href="#">Emergency Line: 9949394828</a>
+                            </div>
+                                                        <div class="social-area-tranaparent">
+                                <span>Follow Us-</span>
+                                <ul>
+                                    <li><a href="https://www.facebook.com/Vascularaccesscentre/"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.instagram.com/vascularaccesscentre/"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-full-header">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header-wrapper-1">
+                        <div class="logo-area-start">
+                            <a href="index.html" class="logo">
+                                <img src="assets/images/logo/logo.svg" alt="logo_area">
+                            </a>
+                            <div class="nav-area">
+                                <ul class="">
+                                    <li class="main-nav">
+                                        <a href="index.html">Home</a>
+                                    </li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li class="main-nav has-dropdown ">
+                                        <a href="varicose-service.html">Vascular access Services</a>
+                                        <ul class="submenu parent-nav">
+                                            <li><a href="service-details.html?id=peripheral-vascular-surgery">Peripheral Vascular Surgery</a></li>
+                                            <li><a href="service-details.html?id=carotid-artery-disease">Carotid Artery Disease</a></li>
+                                            <li><a href="service-details.html?id=peripheral-artery-disease">Peripheral Artery Disease</a></li>
+                                            <li><a href="service-details.html?id=varicose-veins">Varicose Veins</a></li>
+                                            <li><a href="service-details.html?id=aortic-aneurysm-stenting">Arotic Aneurysm Stentin</a></li>
+                                            <li><a href="service-details.html?id=deep-vein-thrombosis">Deep Vein Thrombosis</a></li>
+                                            <li><a href="service-details.html?id=diabetic-foot">Diabetic Foot and Ulcers</a></li>
+                                            <li><a href="service-details.html?id=peripheral-artery-disease">Peripheral Artery Disease</a></li>
+                                            <li><a href="service-details.html?id=endovascular-aneurysm-repair">Endovascular Aneurysm Repair</a></li>
+                                            <li><a href="service-details.html?id=av-fistula">Arteriovenous Fistula</a></li>
+                                            <li><a href="service-details.html?id=aortic-dissection-repair">Aortic Dissection Repair</a></li>
+                                            <li><a href="service-details.html?id=renal-artery-stent">Renal Artery Stenting</a></li>
+                                            <li><a href="service-details.html?id=vascular-bypass-surgery">Vascular Bypass Surgery</a></li>
+                                            <li><a href="service-details.html?id=endovenous-thermal-ablation">Endovenous Thermal Ablation</a></li>
+                                            <li><a href="service-details.html?id=vascular-disease">Vascular Disease</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav has-dropdown ">
+                                        <a href="eyecare.html">Eye Care Services</a>
+                                        <ul class="submenu parent-nav">
+                                            <li><a href="service-detailse.html?id=phacoemulsification-surgery">Phacoemulsification Surgery for Cataract</a></li>
+                                            <li><a href="service-detailse.html?id=small-incision-cataract-surgery">Small Incision Cataract Surgery</a></li>
+                                            <li><a href="service-detailse.html?id=pterygium-excision-conjunctival-autograft">Pterygium Excision with Conjunctival Autograft</a></li>
+                                            <li><a href="service-detailse.html?id=glaucoma-surgery">Glaucoma Surgery</a></li>
+                                            <li><a href="service-detailse.html?id=chalazion-operation">Chalazion Operation</a></li>
+                                            <li><a href="service-detailse.html?id=conjunctival-corneal-fb">Conjunctival and Corneal Foreign Body Removal</a></li>
+                                            <li><a href="service-detailse.html?id=ocular-trauma-management">Ocular Trauma Management</a></li>
+                                            <li><a href="service-detailse.html?id=lid-repairs">Lid Repairs</a></li>
+                                            <li><a href="service-detailse.html?id=contact-lens-fitment">Contact Lens Fitment</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="main-nav ">
+                                        <a href="medicalmedia.html">Medical Media</a>
+                                    </li>
+                                    <li class="main-nav ">
+                                        <a href="blog.html">Blogs</a>
+                                    </li>
+                                    <li class="main-nav"><a href="contactus.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header-right">
+
+                            <!-- <div class="cart-button">
+                            <i class="fa-light fa-cart-shopping"></i>
+                        </div> -->
+                            <a href="contactus.html" class="rts-btn btn-primary">Appointment <img src="assets/images/banner/icons/arrow--up-right.svg" alt=""></a>
+                            <div class="menu-btn" id="menu-btn">
+                                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="14" width="20" height="2" fill="#1F1F25"></rect>
+                                    <rect y="7" width="20" height="2" fill="#1F1F25"></rect>
+                                    <rect width="20" height="2" fill="#1F1F25"></rect>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header area end -->
+    <!-- header area end -->
+
+    <!-- rts breadcrumb area start -->
+    <div class="rts-breadcrumb-area bg_image rts-section-gap">
+        <div class="container ptb--40">
+            <div class="row">
+                <div class="breadcrumb-area-wrapper">
+                    <h1 class="title">Medical Media</h1>
+                    <div class="nav-bread-crumb">
+                        <a href="/">Home</a>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        <a href="#" class="current">Medical Media</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts breadcrumb area end -->
+
+
+    <!-- service details area start -->
+    <div class="service-details-surgery rts-section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="video-gallery">
+                    <div class="video-card" data-video-id="05c5l1UGhtE?si=EiBoiweDQR6ws8aP" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/1.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+            
+                    <div class="video-card" data-video-id="6LPuqK54dAk?si=FsAOkd9hIoffYeiE" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/6.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+            
+                    <div class="video-card" data-video-id="QZlMuJ0X_9Q?si=TFRBf0emzXQuG50u" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/5.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    
+                    <div class="video-card" data-video-id="yFh16JGs1tk?si=IU5wCUplUo29EACT" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/4.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    
+                    <div class="video-card" data-video-id="ujqkU5YFJ88?si=t7pD375tBn78zf9K" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/3.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    
+                    <div class="video-card" data-video-id="XK4sW72WVNw?si=ZZUdTeSE5BJnXyyy" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/2.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    <div class="video-card" data-video-id="nHlTKYa9nHc?si=r3nHZWLjDkL8daZd" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/10.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>    
+                    
+                    <div class="video-card" data-video-id="16TmoaxHGxs?si=BixYWg_0Msjk4-Wn" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/8.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    
+            
+                    
+                    <div class="video-card" data-video-id="mkk1gRkNBWU?si=c6ozbaWWg33gL0iL" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/9.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    <div class="video-card" data-video-id="mzMjjfW20u4?si=BQPUsrIJktfo32Y1" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/11.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    <div class="video-card" data-video-id="0pkF1I5RHK8?si=FmnVc8fTOkpLTUGj" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/12.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    <div class="video-card" data-video-id="tm3gtf76xNk?si=ljyD1FLc_CLW-sX9" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/13.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    <div class="video-card" data-video-id="IsvNCd3w7OU?si=F6cyqMwbsapXyERj" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/14.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    <div class="video-card" data-video-id="sbq7CRfd2Jc?si=B7cKSBQlD4_cB8be" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/15.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    <div class="video-card" data-video-id="eaOEIVOwoJA?si=sQKYlsXheMQsm5EG" onclick="openVideo(this)">
+                        <img src="assets/images/gallary/16.jpg" alt="Video Thumbnail">
+                        <div class="play-button"><img src="assets/images/gallary/play.png"></div>
+                    </div>
+                    
+            
+                    <!-- Add More Video Cards Here -->
+                </div>
+                  
+                  
+            </div>
+        </div>
+    </div>
+    <!-- service details area end -->
+
+    <div class="video-modal" id="videoModal">
+        <div class="video-modal-content">
+            <span class="close-button" onclick="closeVideo()">&times;</span>
+            <iframe id="youtubeVideo" width="100%" height="400px"
+                src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script>
+        function openVideo(element) {
+            let videoId = element.getAttribute("data-video-id");
+            let videoModal = document.getElementById("videoModal");
+            let youtubeVideo = document.getElementById("youtubeVideo");
+
+            // Set the video URL dynamically for each clicked card
+            youtubeVideo.src = "https://www.youtube.com/embed/" + videoId + "?autoplay=1&controls=0&rel=0";
+            videoModal.style.display = "flex";
+        }
+
+        function closeVideo() {
+            let videoModal = document.getElementById("videoModal");
+            let youtubeVideo = document.getElementById("youtubeVideo");
+
+            // Stop the video when modal closes
+            youtubeVideo.src = "";
+            videoModal.style.display = "none";
+        }
+    </script>
+
+
+    <!-- header area start -->
+    <!-- rts footer area start -->
+    <div class="rts-footer-area footer-three footer-two  pt--105 pt_sm--60">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- subscribe area start -->
+                    <div class="subscribe-area-start pb--30">
+                        <a href="#" class="logo">
+                            <img src="assets/images/logo/logo-3.svg" alt="logo">
+                        </a>
+                        <!-- subscribe area start -->
+
+                        <!-- subscribe area end -->
+                    </div>
+                    <!-- subscribe area end -->
+                </div>
+                <div class="col-lg-12">
+                    <div class="footer-wrapper-style-between">
+                        <div class="single-wized">
+                            <h6 class="title">Contact Us</h6>
+                            <div class="body">
+                                <p class="location">
+                                    Ground Floor, Oyster Uptown Building, Pillar no 1748. Madhapur, Hyderabad, Telangana 500081
+                                </p>
+                                <a href="mailto:vascularexcess@gmail.com">vascularexcess@gmail.com</a>
+                                <a href="tel:9949394828">+91 9949394828</a>
+                            </div>
+                        </div>
+                        <div class="single-wized">
+                            <h6 class="title">Company </h6>
+                            <div class="body">
+                                <ul class="nav-bottom">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="varicose-service.html">Vascular access Services</a></li>
+                                    <li><a href="eyecare.html">Eye Care Services</a></li>
+                                    <li><a href="blog.html">Blogs</a></li>
+                                    <li><a href="contactus.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="single-wized">
+                            <h6 class="title">Our Services</h6>
+                            <div class="body">
+                                <ul class="nav-bottom">
+                                <li><a href="service-details.html?id=varicose-veins">Varicose Veins</a></li>                                <li><a href="service-detailse.html?id=glaucoma-surgery">Glaucoma Surgery</a></li>
+
+                                <li><a href="service-details.html?id=deep-vein-thrombosis">Deep Vein Thrombosis</a>                                <li><a href="service-detailse.html?id=lid-repairs">Lid Repairs</a></li>
+</li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area two">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="copyright-area-inner">
+                        <p>© 2025 All Rights Reserved by <a target="_blank" href="#">Vascular access Center</a> and Developed by <a href="http://www.vmedianadvertising.com/">V Media and Advertising</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- rts footer area end -->
+    <!-- header area end -->
+
+
+
+    <!-- header style two -->
+    <div id="side-bar" class="side-bar header-two">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+        <!-- mobile menu area start -->
+        <div class="mobile-menu-main">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu metismenu" id="mobile-menu-active">
+                        <li class="main-nav">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About Us</a></li>
+
+                        <li class="main-nav has-dropdown ">
+                            <a href="#">Vascular access Services</a>
+                            <ul class="submenu parent-nav">
+                                <li><a href="blog.html">Varicose Veins</a></li>
+                                <li><a href="blog.html">Arotic Aneurysm Stentin</a></li>
+                                <li><a href="blog.html">Deep Vein Thrombosis</a></li>
+                                <li><a href="blog.html">Av Fistula</a></li>
+                                <li><a href="blog.html">Diabetic Foot and Ulcers</a></li>
+                                <li><a href="blog.html">Embolization for Fibroids</a></li>
+                                <li><a href="blog.html">Endovascular surgery</a></li>
+                                <li><a href="blog.html">Peripheral Artery Disease</a></li>
+                                <li><a href="blog.html">Endovenous Laser Treatment (EVLT)</a></li>
+                                <li><a href="blog.html">Spider Vein Treatment</a></li>
+                                <li><a href="blog.html">Thrombectomy and Thrombolysis</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-nav has-dropdown ">
+                            <a href="#">Eye Care Services</a>
+                            <ul class="submenu parent-nav">
+                                <li><a href="blog.html">Comprehensive Eye Exams</a></li>
+                                <li><a href="blog.html">Cataract Surgery</a></li>
+                                <li><a href="blog.html">Glaucoma Management</a></li>
+                                <li><a href="blog.html">Refractive Surgery (LASIK/PRK)</a></li>
+                                <li><a href="blog.html">Retina Care and Surgery</a></li>
+                                <li><a href="blog.html">Corneal Transplants</a></li>
+                                <li><a href="blog.html">Pediatric Eye Care</a></li>
+                                <li><a href="blog.html">Dry Eye Treatment</a></li>
+                                <li><a href="blog.html">Low Vision Rehabilitation</a></li>
+                                <li><a href="blog.html">Contact Lens Fitting</a></li>
+                                <li><a href="blog.html">Ocular Plastic Surgery</a></li>
+                            </ul>
+                        </li>
+                        <li class="main-nav ">
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li class="main-nav ">
+                            <a href="medicalmedia.html">Medical Media</a>
+                        </li>
+                        <li class="main-nav"><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <div class="rts-social-style-one pl--20 mt--50">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- mobile menu area end -->
+    </div>
+    <!-- header style two End -->
+    <div class="loader-wrapper">
+        <div class="loader">
+        </div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <div id="anywhere-home">
+    </div>
+    <!-- progress area start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg>
+    </div>
+    <!-- progress area end -->
+    <a href="https://wa.me/9949394828" class="whatsapp-float" target="_blank">
+        <span class="whatsapp-icon"><img src="assets/images/whatsapp.png"></span>
+    </a>
+    <script src="assets/js/plugins/jquery.js"></script>
+    <script src="assets/js/plugins/jquery-ui.js"></script>
+    <script src="assets/js/vendor/waw.js"></script>
+    <script src="assets/js/plugins/swiper.js"></script>
+    <script src="assets/js/plugins/metismenu.js"></script>
+    <script src="assets/js/plugins/jarallax.js"></script>
+    <script src="assets/js/plugins/smooth-scroll.js"></script>
+    <script src="assets/js/plugins/magnifying-popup.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <!-- main js here -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
